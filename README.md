@@ -24,7 +24,7 @@ Early / pre-alpha — public brain dump of calculations, sketches, and reference
 
 - **[notebooks/](notebooks/)** → early Jupyter simulations (delta-v, volatiles, swarm growth)  
 
-- **[docs/](docs/)** → focused module docs (GETM, safety/ethics, large-unit concept)  
+  
 
 ## Core Reading (start here)
 
