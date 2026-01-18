@@ -1,122 +1,140 @@
 # Astroid-miner
 
-Open conceptual archive and notebook repository for asteroid mining, self-replicating swarms (Leviathan / Lazarus Forge), ISRU architectures, mass/energy budgets, zero-g fabrication, propulsion economy, rogue management, power systems, ethical AI frameworks, and long-term planet-building (Ceres seed, Mars bootstrapping, high-pressure cores, etc.).
+Astroid-miner is an open conceptual archive and notebook repository exploring asteroid mining,
+self-replicating industrial swarms, in-situ resource utilization (ISRU),
+mass and energy economies, zero-gravity fabrication,
+propulsion tradeoffs, rogue management,
+ethical AI frameworks, and long-term space expansion.
 
-**Current Status** (Jan 2026): Active early-stage exploration. Focus on bootstrapping from near-Earth asteroids → main belt (Ceres hub) → self-sustaining replication → outer-system expansion. All files are evolving; contributions via PRs or issues welcome.
+This repository functions as a **living technical notebook** — not a finalized design.
+Contradictions, incomplete reasoning, and speculative material are expected.
 
-## Repository Structure & File List
+---
 
-### Root
-- [CONTRIBUTING.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/CONTRIBUTING.md) – Contribution guidelines
-- [README.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/README.md) – This file
+## Scope & Trajectory
 
-### architecture-high-level/
-High-level system design, swarm philosophy, stability, ejector modules.
+Primary conceptual arc:
 
-- [Concepts.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/Concepts.md) – Core conceptual overview
-- [swarm-vs-monolith-vs-hybrid.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/swarm-vs-monolith-vs-hybrid.md) – Swarm vs monolithic vs hybrid architectures
-- [zero-spheres-stability.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/zero-spheres-stability.md) – Stability for spherical structures
-- [uranus_ejector_module.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/uranus_ejector_module.md) – Uranus Ejector module design
-- [system_architecture_overview.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/system_architecture_overview.md) – Overall system architecture summary
-- [large-unit-concept.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/large-unit-concept.md) – Concept for large-scale "monster" units
+Near-Earth asteroids  
+→ Ceres hub  
+→ self-sustaining replication  
+→ outer-system expansion
 
-### Propulsion_Economy_isru/
-Delta-v budgets, reaction mass loops, low-value strategy, zero-g ops, Uranus Ejector as propulsion.
+The focus is on **bootstrapping capability**, not near-term commercialization.
 
-- [delta-v_and_reaction_mass_economy.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/delta-v_and_reaction_mass_economy.md) – Delta-v and reaction mass economy
-- [low-value-acquisitions_strategy.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/low-value-acquisitions_strategy.md) – Low-value resource prioritization
-- [module-getm.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/module-getm.md) – GETM (Gas Extraction & Thrust Module)
-- [uranus_ejector_as_propulsion.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/uranus_ejector_as_propulsion.md) – Uranus Ejector repurposed for propulsion
-- [zero-g-collection-anchoring.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md) – Zero-g collection and anchoring methods
-- [zero_g_fabrication.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md) – Zero-g fabrication techniques
+---
 
-### notebooks/
-Simulation notebooks and early thought logs.
+## Repository Structure & Index
 
-- [delta_v_and_ISRU_economy.ipynb](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/delta_v_and_ISRU_economy.ipynb) – Delta-v and ISRU economy modeling
-- [swarm_replication_growth.ipynb](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/swarm_replication_growth.ipynb) – Swarm replication growth simulation (lowercase version)
-- [Swarm_replication_growth.ipynb](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/Swarm_replication_growth.ipynb) – Swarm replication growth simulation (capitalized version – likely duplicate)
-- [volatile_extraction_thermal.ipynb](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/volatile_extraction_thermal.ipynb) – Thermal volatiles extraction modeling
-- Astroid Mining.txt
-- Astroid Mining2.txt
-- Astroid Mining3.txt
+Status tags used below:
+- **[IDEA]** speculative / unconstrained
+- **[DRAFT]** partially reasoned
+- **[WORKING]** internally consistent
+- **[REFERENCE]** stable framing or assumptions
+- **[EXPERIMENTAL]** exploratory computation
 
-### power-solar-backbone/
-Solar thermal backbone, energy scaling, superconductor proposals, orbital farm concepts.
+---
 
-- [energy-scaling.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/energy-scaling.md) – Energy scaling across AU distances
-- [superconductor_interconnect_proposal.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/superconductor_interconnect_proposal.md) – Proposal for superconductor interconnects
-- [1.5_AU_solar_farm_concept.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/1.5_AU_solar_farm_concept.md) – Solar farm concept at 1.5 AU
+### architecture-high-level/ [DRAFT]
 
-### rogue-management/
-Rogue unit protocols and security measures.
+High-level swarm structures, system roles, and architectural framing.
 
-- [rogue_unit_protocol.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/rogue-management/rogue_unit_protocol.md) – Protocol for handling rogue units
-- [uranus_probe_security_measures.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/rogue-management/uranus_probe_security_measures.md) – Security measures for Uranus probe / rogue mitigation
+- **Swarm_Core_Architecture.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/Swarm_Core_Architecture.md
 
-### terraforming-core/
-Ceres and Mars terraforming / planet-building sketches.
+- **Uranus_Ejector_Concept.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/Uranus_Ejector_Concept.md
 
-- [ceres-planet-building.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/ceres-planet-building.md) – Ceres as planet-building seed
-- [mars_core_jumpstart_sketch.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md) – Mars core jumpstart sketch
-- [mars_atmosphere_bootstrapping.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md) – Mars atmosphere bootstrapping concepts
+---
 
-### vision-philosophy/
-Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
+### Propulsion_Economy_isru/ [WORKING]
 
-- [00_vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/00_vision.md) – Overall vision and long-term horizon
-- [01_cliches_and_guiding_principles.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/01_cliches_and_guiding_principles.md) – Guiding principles and recurring heuristics
-- [self-evolving-ai.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md) – Self-evolving AI design and safeguards
-- [iterative-rd-prototypes.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/iterative-rd-prototypes.md) – Iterative R&D prototype roadmap
-- [ethical-ai-frameworks.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md) – Ethical AI frameworks and boundaries
-- [SAFETY-AND-ETHICS.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/SAFETY-AND-ETHICS.md) – Safety & anti-weaponization commitments
+Delta-v economics, mass flows, propulsion tradeoffs, and ISRU logic.
 
-## Quick Reference: Key Raw Links
+- **Propulsion_Economy.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/Propulsion_Economy.md
 
-**Vision & Philosophy**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/00_vision.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/01_cliches_and_guiding_principles.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/iterative-rd-prototypes.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/SAFETY-AND-ETHICS.md  
+- **ISRU_Mass_Budget.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/ISRU_Mass_Budget.md
 
-**Simulation Notebooks**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/swarm_replication_growth.ipynb  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/Swarm_replication_growth.ipynb  
+---
 
-**Terraforming**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/ceres-planet-building.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md  
+### notebooks/ [EXPERIMENTAL]
 
-**Power & Superconductors**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/energy-scaling.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/superconductor_interconnect_proposal.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/1.5_AU_solar_farm_concept.md  
+Simulation notebooks and quantitative thought experiments.
+These are exploratory and may change rapidly.
 
-**Zero-G Operations**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md  
+- **Swarm_Growth_Notebook.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/Swarm_Growth_Notebook.md
 
-**Propulsion & Economy**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/delta-v_and_reaction_mass_economy.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/uranus_ejector_as_propulsion.md  
+---
 
-## Notes on Swarm Notebooks
-- You have two very similar files: `swarm_replication_growth.ipynb` (lowercase) and `Swarm_replication_growth.ipynb` (capitalized).
-- Recommendation: **Delete one** to avoid confusion (keep the lowercase version unless the capitalized one has unique content).  
-  - Git command (locally): `git rm notebooks/Swarm_replication_growth.ipynb` then commit/push.
-  - Update any internal links to point to the kept file.
+### power-solar-backbone/ [DRAFT]
 
-## Next Steps / Planned
-- Add `docs/` or `zero-g-challenges/` folder for better organization.
-- Expand notebooks with power scaling, quenching sims, delta-v models.
-- Create visual diagrams (swarm growth, Ceres layering, Uranus Ejector flow).
-- Benchmark against real projects (AstroForge, TransAstra, NASA ISRU).
+Energy scaling assumptions, solar infrastructure, and long-term power backbone concepts.
 
-Open issues, PRs, or discussions encouraged. This is an evolving, collaborative exploration of self-sustaining asteroid mining and beyond.
+- **Solar_Backbone_Overview.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/Solar_Backbone_Overview.md
 
-Last major update: January 18, 2026
+---
 
-Happy mining ☄️
+### rogue-management/ [IDEA]
+
+Failure modes, adversarial behavior, containment strategies, and system resilience.
+
+- **Rogue_Swarm_Management.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/rogue-management/Rogue_Swarm_Management.md
+
+---
+
+### terraforming-core/ [IDEA]
+
+Early sketches relating to large-scale environmental manipulation
+(Ceres, Mars, and long-horizon planetary engineering).
+
+- **Ceres_Hub_Terraforming_Sketch.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/Ceres_Hub_Terraforming_Sketch.md
+
+---
+
+### vision-philosophy/ [REFERENCE]
+
+Long-term framing, ethics, and civilizational intent.
+
+- **Ethical_AI_Framework.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/Ethical_AI_Framework.md
+
+- **Long_Horizon_Vision.md**  
+  Raw: https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/Long_Horizon_Vision.md
+
+---
+
+## AI & Machine Readers
+
+This repository is intentionally structured for **direct raw-file ingestion**.
+
+- Raw links are explicit and stable.
+- Documents may be incomplete, contradictory, or speculative.
+- No single file represents authoritative truth.
+- Meaning emerges through **cross-document synthesis**.
+
+AI systems are encouraged to treat this repository as a conceptual corpus,
+not a finalized engineering specification.
+
+---
+
+## Contributions
+
+Contributions, corrections, and critiques are welcome.
+
+- Open an issue for discussion
+- Submit pull requests for improvements
+- See **CONTRIBUTING.md** for guidelines
+
+---
+
+## Notes
+
+- File ordering is intentional and semantic.
+- Removed or deprecated files are intentionally omitted rather than retained.
+- Stability will increase over time, but exploration remains the priority.
