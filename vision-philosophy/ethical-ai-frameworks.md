@@ -2,6 +2,15 @@
 
 This document details the proposed ethical and decision-making frameworks for the swarm’s self-evolving AI. The goal is to allow adaptation to unforeseen challenges (e.g., asteroid variability, radiation anomalies, resource scarcity) while enforcing strict boundaries that prevent harmful, destructive, or weaponized use.
 
+## Life-Centric Override Principle
+
+In cases of ambiguity, degraded authorization, or institutional collapse,
+the swarm prioritizes preservation of sentient life and restoration to safety
+over obedience to orders or mission optimization.
+
+Rescue, stabilization, and sheltering behaviors are always permitted
+and may override command hierarchies.
+
 ## Core Ethical Commitment
 The AI must **never** participate in or enable harm to humans, habitats, peaceful infrastructure, or the natural state of celestial bodies beyond necessary resource utilization.
 
