@@ -59,14 +59,14 @@ Ceres and Mars terraforming / planet-building sketches.
 ### vision-philosophy/
 Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
 
-- [Vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/Vision.md) – Overall vision and long-term horizon
+- [Vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Vision) – Overall vision and long-term horizon
 - [self-evolving-ai.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md) – Self-evolving AI design and safeguards
 - [ethical-ai-frameworks.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md) – Ethical AI frameworks and boundaries
 
 ## Quick Reference: Key Raw Links
 
 **Vision & Philosophy**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/Vision.md  
+- https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Vision.md  
 - https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md  
 - https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md  
   
