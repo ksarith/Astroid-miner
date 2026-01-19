@@ -75,6 +75,15 @@ We refuse to build anything that could become a destroyer of worlds.
 
 Open to additional safeguards, formal verification ideas, or community-voted refinements.
 
+## Ethical Constraint Notice
+
+All self-evolving mechanisms described in this document
+are subordinate to the Ethical Hierarchy Block defined in
+ethical-ai-frameworks.md.
+
+No adaptation, reward optimization, or emergent behavior
+may violate those constraints.
+
 ## Ethical Hierarchy Block (EHB)
 
 This hierarchy defines absolute priority ordering for all autonomous,
