@@ -1,6 +1,6 @@
 # Self-Evolving AI — Leviathan Swarm
 
-Self-evolving AI is one of the most powerful — and most dangerous — capabilities we are considering.
+The following constraints derive directly from the Ethical Hierarchy Block defined below.  Self-evolving AI is one of the most powerful — and most dangerous — capabilities we are considering.
 
 In deep space, conditions are unpredictable: asteroid compositions vary wildly, radiation storms disrupt sensors, resource scarcity forces trade-offs, unknown phenomena appear. A static AI would fail; an adaptive one could thrive.
 
