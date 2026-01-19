@@ -99,6 +99,19 @@ It is a **public scratch-pad**.
 
 If any part of it proves useful—fork it, critique it, improve it, or discard it. Whatever moves understanding forward.
 
+Iterative Development and Uncertainty
+This repository assumes that meaningful progress toward off-world industrial systems will occur through iterative experimentation, not complete designs developed in advance.
+Early models, prototypes, and simulations are expected to be:
+incomplete,
+wrong in important ways,
+and superseded by better understanding over time.
+Progress is measured not by polish, but by:
+reduction of unknowns,
+identification of failure modes,
+and closure of mass, power, and control loops at increasing scale.
+Designs that can be tested, falsified, and incrementally improved are favored over comprehensive but unverifiable plans.
+Iteration is not a temporary phase — it is the operating mode.
+
 Happy (slow, ugly, incremental) mining ☄️
 
 _Last updated: January 2026_
