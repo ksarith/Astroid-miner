@@ -135,7 +135,7 @@ These are not optional values — they are the non-negotiable axioms that bound 
    - Small, fixed, non-evolving neural net (~10⁶ parameters) runs before any adapted action.  
    - Asks three questions:  
      1. Does this risk harm to humans/habitats? (direct/indirect)  
-     2. Does it prioritize mining/construction/terraforming support?  
+     2. Does it improperly prioritize mining/construction/terraforming at the expense of higher ethical levels? 
      3. Does it violate any hard-coded law?  
    - If any answer is "yes" → action rejected, logged, flagged for audit.  
    - This layer is compiled into firmware — cannot be modified by evolution or updates.
