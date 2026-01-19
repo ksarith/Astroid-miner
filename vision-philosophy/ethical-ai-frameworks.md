@@ -28,13 +28,14 @@ This commitment is non-negotiable and embedded at the lowest level of every AI n
    - Strong positive rewards (+100 to +1000) for:  
      - Resource extraction efficiency (H₂O, Fe/Ni, volatiles)  
      - Safe navigation (distance >1 km from known habitats)  
-     - Successful replication & fabrication  
+     - Successful replication & fabrication
+     - Absolute reward magnitudes are illustrative; ethical vetoes override all numeric optimization.
    - Severe negative rewards (-500 to -10,000) for:  
      - Proximity to human assets (<1 km)  
      - High-energy maneuvers inconsistent with mining/transport  
      - Unauthorized trajectory changes  
      - Deviation from mission parameters  
-   - Goal: even self-evolving behaviors are pulled toward civilian outcomes.
+   - Goal: even self-evolving behaviors are pulled toward civilian outcomes.  
 
 3. **Meta-Ethical Layer** (runtime gatekeeper)  
    - Before any evolved or adapted behavior is executed, the meta-layer evaluates:  
@@ -105,7 +106,7 @@ including but not limited to:
 Rescue, stabilization, escort, and sheltering of endangered beings
 are always permitted and may override all lower-level objectives.
 
-This level is non-negotiable and cannot be disabled, bypassed, or reinterpreted.
+This level is non-negotiable and cannot be disabled, bypassed, or reinterpreted.  In cases of uncertainty regarding sentience, the system must assume sentience and act conservatively.
 
 ---
 
@@ -163,3 +164,4 @@ rather than act aggressively.
 
 Last updated: January 2026  
 Related: [safety-and-ethics.md](safety-and-ethics.md), [self-evolving-ai.md](self-evolving-ai.md) (future)
+Project map & raw links: [Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)
