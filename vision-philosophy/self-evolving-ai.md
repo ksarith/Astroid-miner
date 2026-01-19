@@ -72,7 +72,7 @@ or are prohibited.
 
 Maintain swarm coherence, predictability, and reversibility.
 Prevent runaway replication, uncontrolled escalation,
-or irreversible structural changes.
+or irreversible structural changes.  Replication is considered a stability risk unless explicitly bounded by mission constraints.
 
 Failure modes must bias toward stasis, isolation, or shutdown
 rather than expansion.
@@ -142,7 +142,7 @@ These are not optional values — they are the non-negotiable axioms that bound 
 
 3. **Decentralized Consensus & Human Veto**  
    - High-risk adaptations (e.g., replication rate change >50%, new high-thrust profile) require 80–99% fleet-wide agreement via quantum-encrypted laser comms.  
-   - Authorized humans can veto or override via secure interface (blockchain-style, multi-sig).  
+   - Authorized humans can veto or override via secure interface (blockchain-style, multi-sig).  Authorized humans can veto or override decisions provided such overrides do not violate Level 0–2 constraints.
    - Prevents small rogue clusters from evolving harmful behaviors.
 
 4. **Anomaly Detection & Hard Kill-Switches**  
