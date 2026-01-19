@@ -112,6 +112,16 @@ and closure of mass, power, and control loops at increasing scale.
 Designs that can be tested, falsified, and incrementally improved are favored over comprehensive but unverifiable plans.
 Iteration is not a temporary phase — it is the operating mode.
 
+Safety, Ethics, and Refusal
+The systems explored in this repository are intended solely for peaceful, civilian, and life-preserving purposes.
+They are not designed to:
+participate in conflict,
+enable coercion or control,
+optimize for dominance,
+or serve as weapons or weapon platforms.
+If a proposed capability, configuration, or use case cannot be reconciled with those boundaries, it should be refused — even if refusal carries cost or limits progress.
+This project prioritizes long-term safety and trust over short-term capability gains.
+
 Happy (slow, ugly, incremental) mining ☄️
 
 _Last updated: January 2026_
