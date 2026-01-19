@@ -111,4 +111,7 @@ Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
 
 Open issues, PRs, or discussions encouraged. This is an evolving, collaborative exploration of self-sustaining asteroid mining and beyond.
 
+
+Project map & raw links: [Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md
+
 Last major update: January 18, 2026
