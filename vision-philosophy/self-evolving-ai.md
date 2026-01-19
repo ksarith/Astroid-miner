@@ -130,6 +130,7 @@ These are not optional values — they are the non-negotiable axioms that bound 
      -10000 → high-energy maneuvers inconsistent with mining/transport  
      -∞ (hard veto) → violation of Asimov laws  
    - Evolution runs offline (simulated scenarios) → only behaviors passing meta-ethical checks are deployed.
+   - Absolute reward magnitudes are illustrative; ethical vetoes override all numeric optimization.
 
 2. **Meta-Ethical Gatekeeper Layer**  
    - Small, fixed, non-evolving neural net (~10⁶ parameters) runs before any adapted action.  
