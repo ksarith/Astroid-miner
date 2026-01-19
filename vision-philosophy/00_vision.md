@@ -1,68 +1,127 @@
-# 00 – Vision & Long-term Horizon
+00 — Vision & Long-Term Horizon
 
-This repository is an open, evolving notebook of ideas around industrial-scale asteroid mining and the bootstrapping of large off-world industrial capacity.
+This repository is an open, evolving notebook exploring concepts related to industrial-scale asteroid mining and the bootstrapping of large, off-world industrial capacity.
 
-The ultimate (very long-term) goal is to help make multi-planetary industrial civilization technically, economically and energetically realistic within the next 100–150 years.
+The very long-term objective is to help make a multi-planetary industrial civilization technically, economically, and energetically feasible within roughly the next 100–150 years.
 
-## Core premise
+This is not a prediction. It is an exploration of what might be required if such a future is to exist at all.
 
-Humanity is currently bottlenecked by:
-- Launch cost + payload mass to orbit
-- Reaction mass / propellant economics in space
-- Energy availability at scale beyond LEO
-- Lack of self-expanding industrial infrastructure in space
 
-Asteroid mining + in-situ resource utilization (ISRU) + self-replication / exponential manufacturing loops are among the few pathways that can plausibly relax all four constraints simultaneously.
+---
 
-If those loops can be closed at small-to-medium scale (tens to thousands of tonnes/year), the rest of the solar system becomes accessible in a way that chemical rockets + Earth supply chains never can.
+Core Premise
 
-## Why focus on asteroid mining specifically
+Humanity’s expansion beyond Earth is currently constrained by several tightly coupled bottlenecks:
 
-- Near-term accessibility: NEAs have Δv < 7 km/s round-trip from LEO, many < 4 km/s
-- Diverse resource mix in one place: volatiles (H₂O, CO₂, NH₃), metals (Fe, Ni, Co, PGEs), silicates, carbon
-- No deep gravity wells: escape velocities 10–100 m/s on small bodies
-- No atmosphere drag or weather: continuous solar power, no dust storms after initial clearing
-- Exponential scaling potential: once you can mine and refine enough mass to replicate the mining/refining capacity, growth becomes geometric rather than linear
+Launch cost and payload mass to orbit
 
-Main-belt asteroids and lunar material are longer-term complements; NEAs are the logical bootstrap location.
+Reaction mass and propellant economics in space
 
-## Guiding philosophy (in no particular order)
+Energy availability at scale beyond low Earth orbit
 
-- **Start small, ugly, and cheap** — the first self-expanding system does not need to be beautiful, elegant, or even profitable. It needs to close the mass loop.
-- **Waste is propellant** — every gram of non-product that leaves the mining site should ideally become reaction mass (CH₄, H₂O dissociation, metal-oxygen cycles, momentum exchange tethers…).
-- **Minimize Earth dependency after bootstrap** — once the first ~10–100 t/year loop closes, almost everything should come from space resources.
-- **Redundancy > optimization early on** — the first replicating systems will fail a lot. Design for fault tolerance, graceful degradation, and swarm-level robustness.
-- **Truth is truth, no matter who says it** — if a 1960s paper, a random forum post, or a sci-fi novel contains a correct insight, use it.
-- **A little forethought can save a whole lot of heartache** — especially around Kessler syndrome, rogue unit protocols, reaction mass starvation, and single-point failure modes.
-- **The only certainty is that we know very little** — treat every number in this repo as provisional and wrong until proven otherwise by simulation or experiment.
+The absence of self-expanding industrial infrastructure off-world
 
-## Success looks like (very long term)
 
-Not a single company or government project, but thousands of independent, semi-autonomous industrial nodes across the inner and outer solar system, each capable of replicating itself given time and feedstock.
+Asteroid mining, in-situ resource utilization (ISRU), and self-replicating or self-expanding manufacturing loops are among the few approaches that could plausibly relax all four constraints at once.
 
-At that point launch cost from Earth becomes almost irrelevant for large-scale infrastructure — the question shifts to “how fast can we grow the seed population?”
+If even modest mass-closure loops can be achieved—on the order of tens to thousands of tonnes per year—then large portions of the solar system become accessible in ways that Earth-supplied chemical rocket architectures cannot realistically support.
 
-## Where this repo fits in
 
-We are still very far from that picture.
+---
 
-What exists today:
-- Academic papers (mostly conceptual or lab-scale)
-- A handful of private companies at TRL 3–5
-- No public, reproducible, end-to-end system model that closes the mass/power loop at >1 t/year scale
+Why Asteroid Mining
 
-This repo tries to collect fragments and — when possible — turn them into:
-- Runnable parametric models
-- Mass & power budgets
-- Architecture trade studies
-- Reference lists
-- Honest lists of what we still don’t know
+Asteroids—particularly near-Earth asteroids (NEAs)—are a logical bootstrap target for several reasons:
 
-It is not a roadmap, not a business plan, not investment material.  
+Low delta-v accessibility: many NEAs have round-trip Δv < 7 km/s from LEO, with some well below 4 km/s
+
+Resource diversity in a single body: volatiles (H₂O, CO₂, NH₃), metals (Fe, Ni, Co, PGEs), silicates, and carbon
+
+Minimal gravity wells: escape velocities of ~10–100 m/s on small bodies
+
+No atmosphere or weather: continuous solar availability and no aerodynamic losses
+
+Exponential scaling potential: once mining and refining capacity can replicate itself, growth becomes geometric rather than linear
+
+
+Main-belt asteroids and lunar resources are likely longer-term complements, but NEAs represent the most practical initial foothold.
+
+
+---
+
+Guiding Philosophy
+
+The ideas in this repository are shaped by a few pragmatic assumptions:
+
+Start small, ugly, and cheap
+The first self-expanding systems do not need to be elegant or profitable. They need to close the mass loop.
+
+Waste is propellant
+Any mass not retained as product should ideally serve as reaction mass—whether via water, methane, metal-oxygen cycles, or momentum-exchange systems.
+
+Minimize Earth dependency after bootstrap
+Once a ~10–100 tonne/year loop is closed, most inputs should come from space-derived resources.
+
+Redundancy beats optimization early
+Early replicating systems will fail frequently. Fault tolerance, graceful degradation, and swarm-level robustness matter more than peak efficiency.
+
+Truth is source-agnostic
+Useful insights may come from academic papers, obscure forum posts, historical studies, or even science fiction. Origin matters less than correctness.
+
+Forethought prevents cascading failure
+Issues like debris generation, runaway replication, reaction-mass starvation, and single-point failures must be considered early—even if solutions are incomplete.
+
+Uncertainty is the default state
+Nearly every number in this repository should be treated as provisional until validated by simulation, experiment, or real-world data.
+
+
+
+---
+
+What “Success” Looks Like (Long-Term)
+
+Success is not a single company, mission, or government program.
+
+It is a future where thousands of semi-autonomous industrial nodes operate across the inner and outer solar system—each capable of reproducing itself given sufficient time and feedstock.
+
+At that point, launch cost from Earth becomes largely irrelevant for large-scale infrastructure. The central question shifts from “What can we afford to launch?” to “How fast can the initial seed population grow?”
+
+
+---
+
+Where This Repository Fits
+
+We are very far from that outcome.
+
+Today we have:
+
+Mostly conceptual or lab-scale academic research
+
+A small number of private efforts at roughly TRL 3–5
+
+No publicly available, end-to-end system model that closes the mass and power loop at meaningful scale (>1 t/year)
+
+
+This repository attempts to collect partial answers and, where possible, turn them into:
+
+Runnable or parametric models
+
+Mass and power budgets
+
+Architecture trade studies
+
+Curated reference lists
+
+Explicit lists of unknowns and failure modes
+
+
+This is not a roadmap, a business plan, or investment material.
+
 It is a public scratch-pad.
 
-If you find any part useful — fork it, improve it, criticize it, ignore it, whatever helps move the ball forward.
+If any part of it proves useful—fork it, critique it, improve it, or discard it. Whatever moves understanding forward.
 
 Happy (slow, ugly, incremental) mining ☄️
 
 Last updated: January 2026
+
