@@ -171,4 +171,5 @@ We build this to **enable** humanity’s reach into the stars — not to threate
 Feedback, formal verification ideas, red-team scenarios, or additional safeguards very welcome.
 
 Last updated: January 2026  
-Related: [safety-and-ethics.md](safety-and-ethics.md), [iterative-rd-prototypes.md](iterative-rd-prototypes.md)
+Project map & raw links: [Lazarus Forge Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)
+Project map & raw links: [Astroid-miner Discovery.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Discovery.md)
