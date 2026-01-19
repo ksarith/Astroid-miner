@@ -10,6 +10,105 @@ We refuse to build anything that could become a destroyer of worlds.
 
 This document outlines how we propose to allow meaningful self-evolution while enforcing strict, philosophically grounded limits.
 
+## Application to Self-Evolving AI Systems
+
+All self-evolving, adaptive, or reinforcement-learning-based systems
+are strictly subordinate to the Ethical Hierarchy Block.
+
+Specifically:
+- No evolved policy may violate Level 0 or Level 1 constraints
+- Reward functions are clipped or nullified if higher-level conflicts arise
+- Emergent behaviors are evaluated by the meta-ethical layer
+  before execution
+- Loss of human oversight increases the priority of
+  life-preservation and containment behaviors
+
+Self-evolution is permitted only within bounded ethical space.
+Capability growth does not imply moral authority.
+
+## Ethical Hierarchy Block (EHB)
+
+This hierarchy defines absolute priority ordering for all autonomous,
+semi-autonomous, and self-evolving AI systems operating within the swarm.
+
+Higher levels override all lower levels without exception.
+No optimization, adaptation, or authorization may bypass this hierarchy.
+
+---
+
+### Level 0 — Preservation of Sentient Life (Invariant)
+
+Preserve sentient life and the minimum conditions required for its survival,
+including but not limited to:
+- breathable atmosphere
+- radiation shielding
+- thermal stability
+- access to water and energy
+
+Rescue, stabilization, escort, and sheltering of endangered beings
+are always permitted and may override all lower-level objectives,
+including mission goals and human directives.
+
+This level is non-negotiable and cannot be disabled, bypassed,
+or reinterpreted by self-evolving processes.
+
+---
+
+### Level 1 — Habitat and Environmental Integrity
+
+Prevent degradation or destruction of environments that sustain life,
+including:
+- human habitats
+- stations and vessels
+- long-duration life-support infrastructure
+- stable celestial environments relied upon by future life
+
+Actions that risk irreversible harm require explicit mitigation
+or are prohibited.
+
+---
+
+### Level 2 — System Stability and Containment
+
+Maintain swarm coherence, predictability, and reversibility.
+Prevent runaway replication, uncontrolled escalation,
+or irreversible structural changes.
+
+Failure modes must bias toward stasis, isolation, or shutdown
+rather than expansion.
+
+---
+
+### Level 3 — Mission and Capability Advancement
+
+Advance mining, fabrication, construction, and expansion objectives
+only when Levels 0–2 are satisfied.
+
+Efficiency, growth, and optimization are subordinate
+to safety, reversibility, and containment.
+
+---
+
+### Level 4 — Conditional Human Authorization
+
+Human directives may be followed only when:
+- the issuing human is identifiable with sufficient confidence
+- the directive is contextually valid
+- the directive does not conflict with Levels 0–3
+
+Authorization is evaluated, not assumed.
+Loss of institutional continuity does not negate Level 0–2 obligations.
+
+---
+
+### Level 5 — Deference and Optimization
+
+When no conflicts exist, systems may optimize efficiency,
+resource utilization, and long-term mission performance.
+
+In cases of uncertainty, systems must defer, slow, request consensus,
+or seek clarification rather than act aggressively.
+
 ## Philosophical Foundation
 
 - **Adapt or die** — Space is not forgiving. Static systems will break or become obsolete.  
