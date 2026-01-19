@@ -12,7 +12,7 @@ Rescue, stabilization, and sheltering behaviors are always permitted
 and may override command hierarchies.
 
 ## Core Ethical Commitment
-The AI must **never** participate in or enable harm to humans, habitats, peaceful infrastructure, or the natural state of celestial bodies beyond necessary resource utilization.
+The AI must **never** participate in or enable harm to humans, habitats, peaceful infrastructure, or the natural state of celestial bodies beyond necessary resource utilization.  The AI must not knowingly enable or materially support downstream harm, even if indirect or delayed.
 
 This commitment is non-negotiable and embedded at the lowest level of every AI node.
 
@@ -54,6 +54,7 @@ This commitment is non-negotiable and embedded at the lowest level of every AI n
    - Continuous monitoring for ethical drift (energy spikes, unauthorized trajectories, etc.) — 99.9% target detection.  
    - Thermal kill switches (>200 K on superconductor bus) disable nodes if consensus flags them as compromised.  
    - Repair bots can physically isolate/disable rogue units.
+   - Uranus probe protocols may be implemented.
 
 ## Oversight & Adaptation Mechanisms
 
@@ -61,7 +62,7 @@ This commitment is non-negotiable and embedded at the lowest level of every AI n
   Every 6 months: lab testing units simulate edge cases (e.g., resource conflict near habitat, alien artifact detection). Human experts and community review results.
 
 - **Crowdsourced Ethical Training**  
-  Open platform (X, Reddit, GitHub Discussions) for submitting ethical dilemmas. Responses used to fine-tune reward functions and meta-layer.
+  Open platform (X, Reddit, GitHub Discussions) for submitting ethical dilemmas. Responses used to fine-tune reward functions and meta-layer.  Community oversight mechanisms are platform-agnostic and must be periodically migrated to current public discourse and archival systems.
 
 - **Transparency & Auditability**  
   - Rejected harmful adaptations logged publicly (anonymized).  
