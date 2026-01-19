@@ -43,12 +43,6 @@ Solar thermal backbone, energy scaling, superconductor proposals, orbital farm c
 - [superconductor_interconnect_proposal.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/superconductor_interconnect_proposal.md) – Proposal for superconductor interconnects
 - [1.5_AU_solar_farm_concept.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/1.5_AU_solar_farm_concept.md) – Solar farm concept at 1.5 AU
 
-### rogue-management/
-Rogue unit protocols and security measures.
-
-- [rogue_unit_protocol.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/rogue-management/rogue_unit_protocol.md) – Protocol for handling rogue units
-- [uranus_probe_security_measures.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/rogue-management/uranus_probe_security_measures.md) – Security measures for Uranus probe / rogue mitigation
-
 ### terraforming-core/
 Ceres and Mars terraforming / planet-building sketches.
 
@@ -56,57 +50,91 @@ Ceres and Mars terraforming / planet-building sketches.
 - [mars_core_jumpstart_sketch.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md) – Mars core jumpstart sketch
 - [mars_atmosphere_bootstrapping.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md) – Mars atmosphere bootstrapping concepts
 
-### vision-philosophy/
-Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
+# Discovery — Project Map & Raw Links
 
-- [Vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Vision) – Overall vision and long-term horizon
-- [self-evolving-ai.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md) – Self-evolving AI design and safeguards
-- [ethical-ai-frameworks.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md) – Ethical AI frameworks and boundaries
+This file is the **canonical index** for the Astroid-miner repository.
 
-## Quick Reference: Key Raw Links
+Its purpose is to:
+- Provide a **stable project map**
+- Expose **raw file links** for AI ingestion
+- Reduce navigation friction for humans
+- Avoid duplication of content found elsewhere
 
-**Vision & Philosophy**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Vision.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md  
-  
-**Simulation Notebooks**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/swarm_replication_growth.ipynb    
+If a document exists in the repository, it should be reachable from here.
 
-**Terraforming**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/ceres-planet-building.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md  
+---
 
-**Power & Superconductors**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/energy-scaling.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/superconductor_interconnect_proposal.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/1.5_AU_solar_farm_concept.md  
+## Project Overview
 
-**Zero-G Operations**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md  
+Astroid-miner explores concepts, architectures, and constraints around:
+- Industrial-scale asteroid mining
+- In-situ resource utilization (ISRU)
+- Self-expanding off-world industrial systems
+- Long-horizon autonomy with strict ethical bounds
 
-**Propulsion & Economy**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/delta-v_and_reaction_mass_economy.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/uranus_ejector_as_propulsion.md  
+This repository focuses on **mining, fabrication, and replication logic**.  
+Closely related ethical and systems work exists in the Lazarus Forge project (linked below).
 
-## Notes on Swarm Notebooks
-  - Git command (locally): `git rm notebooks/Swarm_replication_growth.ipynb` then commit/push.
-  - Update any internal links to point to the kept file.
+---
 
-## Next Steps / Planned
-- Add `docs/` or `zero-g-challenges/` folder for better organization.
-- Expand notebooks with power scaling, quenching sims, delta-v models.
-- Create visual diagrams (swarm growth, Ceres layering, Uranus Ejector flow).
-- Benchmark against real projects (AstroForge, TransAstra, NASA ISRU).
+## Vision & Philosophy (Canonical)
 
-Open issues, PRs, or discussions encouraged. This is an evolving, collaborative exploration of self-sustaining asteroid mining and beyond.
+High-level intent, ethics, and long-term framing.
 
+- **Vision**  
+  https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Vision.md
 
-Project map & raw links: Discovery.md https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md
+- **Ethical AI Frameworks**  
+  https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Ethical_AI_Frameworks.md
 
-https://github.com/ksarith/Lazarus-Forge-
+- **Self-Evolving AI**  
+  https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Self-Evolving_AI.md
 
+- **Rogue Unit Management (Preservation-First)**  
+  https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Rogue_unit_management.md
 
-Last major update: January 18, 2026
+---
+
+## Architecture & Technical Exploration
+
+System layouts, trade studies, and early technical reasoning.
+
+- **Iterative R&D & Prototyping (condensed concepts)**  
+  https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/iterative-rd-prototypes.md
+
+(Additional architecture and subsystem documents will appear here as they mature.)
+
+---
+
+## Safety & Ethics (Operational)
+
+Safety constraints that apply across all subsystems.
+
+- **Safety and Ethics**  
+  https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/SAFETY-AND-ETHICS.md
+
+---
+
+## Cross-Project Reference — Lazarus Forge
+
+Lazarus Forge explores **broader autonomous industrial systems**, governance, and AI-centric fabrication logic that overlap with Astroid-miner.
+
+- **Lazarus Forge — Project Map & Raw Links**  
+  https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md
+
+Astroid-miner can be considered a **domain-specific sibling** focused on asteroid mining and ISRU.
+
+---
+
+## Notes on Structure
+
+- This file intentionally contains **no analysis or philosophy**
+- It should change **rarely**
+- Documents may evolve, but links here should remain valid
+- Deprecated or merged files should be removed from this index
+
+If a link here is broken, it should be fixed immediately.
+
+---
+
+Last updated: January 2026
