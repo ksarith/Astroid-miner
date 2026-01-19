@@ -12,6 +12,27 @@ Near-Earth asteroids → Ceres hub → self-sustaining replication → outer-sys
 
 Focus: bootstrapping capability over near-term commercialization.
 
+## Design Principles
+
+- **Single source of truth** — Vision and Discovery define authority.  
+- **Explicit constraints** — Safety and ethical rules are embedded in the system, not implied.  
+- **Iterative realism** — Systems should be testable, auditable, and incrementally improvable.  
+- **Human-aligned autonomy** — Automation extends human capabilities; it does not replace oversight.
+
+## Authoritative Vision
+
+The guiding vision is maintained in a single, stable document:
+
+- **Vision**  
+  `vision-philosophy/Vision.md` (canonical source for intent, ethics, and long-term design)
+
+This document consolidates:
+- Purpose and long-term goals  
+- Ethical boundaries and constraints  
+- Design philosophy for autonomous and self-evolving systems  
+
+All design and operational decisions defer to this vision.
+
 ## Repository Structure & Index
 
 Status tags:  
@@ -49,3 +70,5 @@ Astroid-miner represents its logical long-horizon extension once replication cap
 Authoritative map for Lazarus Forge: [Discovery.md (Lazarus-Forge-)](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)
 
 Last major README update: January 19, 2026
+
+
