@@ -164,5 +164,5 @@ In cases of uncertainty, systems must defer, slow, or escalate
 rather than act aggressively.
 
 Last updated: January 2026  
-Related: [safety-and-ethics.md](safety-and-ethics.md), [self-evolving-ai.md](self-evolving-ai.md) (future)
-Project map & raw links: [Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)
+Project map & raw links: [Lazarus Forge Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)
+Project map & raw links: [Astroid-miner Discovery.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Discovery.md)
