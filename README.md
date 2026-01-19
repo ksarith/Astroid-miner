@@ -138,3 +138,137 @@ Contributions, corrections, and critiques are welcome.
 - File ordering is intentional and semantic.
 - Removed or deprecated files are intentionally omitted rather than retained.
 - Stability will increase over time, but exploration remains the priority.
+
+
+---
+
+Lazarus Forge
+
+Lazarus Forge is a long-horizon research and engineering project focused on autonomous systems, AI-assisted fabrication, and self-improving infrastructure under explicit ethical constraints.
+
+The project emphasizes clarity, restraint, and traceability over speed or spectacle.
+
+
+---
+
+Project Orientation
+
+This repository is structured around a small number of authoritative documents:
+
+Vision defines intent, scope, and long-term direction
+
+Discovery defines the canonical project map
+
+All other files exist to support or implement those foundations
+
+
+If a document is not referenced in Discovery.md, it should be considered exploratory, transitional, or deprecated.
+
+
+---
+
+Vision & Philosophy
+
+The guiding vision for Lazarus Forge is maintained in a single authoritative document:
+
+Vision
+vision-philosophy/Vision.md
+
+
+This document consolidates:
+
+Purpose and long-term goals
+
+Ethical boundaries and constraints
+
+Design philosophy for autonomous and self-evolving systems
+
+Human oversight assumptions
+
+
+The vision is intentionally stable and should evolve slowly.
+
+
+---
+
+Project Map (Canonical Index)
+
+For a machine- and human-readable index of current, authoritative files, see:
+
+Discovery.md
+https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md
+
+
+Discovery.md is the only place where raw file links are maintained.
+
+
+---
+
+Design Principles
+
+Lazarus Forge follows several structural principles:
+
+Single source of truth
+Vision lives in one place. Maps live in one place.
+
+Explicit constraints
+Ethical and safety constraints are embedded, not implied.
+
+Iterative realism
+Systems are designed to be buildable, testable, and auditable.
+
+Human-aligned autonomy
+Automation exists to extend human capability, not replace accountability.
+
+
+
+---
+
+Repository Status
+
+This project is under active conceptual and architectural refinement.
+
+You should expect:
+
+Consolidation over expansion
+
+Deletion of redundant files
+
+Gradual movement from abstract concepts to concrete systems
+
+
+Stability is prioritized over velocity.
+
+
+---
+
+Contributing & Use
+
+At this stage:
+
+Contributions are conceptual, architectural, or corrective
+
+Feedback is welcome, especially where it improves clarity or coherence
+
+Forks are encouraged for experimentation
+
+
+Implementation details will emerge only after architectural coherence is achieved.
+
+
+---
+
+Final Note
+
+Lazarus Forge is not optimized for virality, speed, or short-term output.
+
+It is optimized for:
+
+Longevity
+
+Composability
+
+Ethical durability
+
+
+If that resonates, start with Vision.md, then follow Discovery.md.
