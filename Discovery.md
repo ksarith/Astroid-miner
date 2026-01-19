@@ -59,22 +59,17 @@ Ceres and Mars terraforming / planet-building sketches.
 ### vision-philosophy/
 Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
 
-- [00_vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/00_vision.md) – Overall vision and long-term horizon
+- [Vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/vision.md) – Overall vision and long-term horizon
 - [self-evolving-ai.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md) – Self-evolving AI design and safeguards
-- [iterative-rd-prototypes.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/iterative-rd-prototypes.md) – Iterative R&D prototype roadmap
 - [ethical-ai-frameworks.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md) – Ethical AI frameworks and boundaries
-- [SAFETY-AND-ETHICS.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/SAFETY-AND-ETHICS.md) – Safety & anti-weaponization commitments
 
 ## Quick Reference: Key Raw Links
 
 **Vision & Philosophy**  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/00_vision.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/01_cliches_and_guiding_principles.md  
+- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/vision.md  
 - https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/iterative-rd-prototypes.md  
 - https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md  
-- https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/SAFETY-AND-ETHICS.md  
-
+  
 **Simulation Notebooks**  
 - https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/swarm_replication_growth.ipynb    
 
@@ -97,8 +92,6 @@ Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
 - https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/uranus_ejector_as_propulsion.md  
 
 ## Notes on Swarm Notebooks
-- You have two very similar files: `swarm_replication_growth.ipynb` (lowercase) and `Swarm_replication_growth.ipynb` (capitalized).
-- Recommendation: **Delete one** to avoid confusion (keep the lowercase version unless the capitalized one has unique content).  
   - Git command (locally): `git rm notebooks/Swarm_replication_growth.ipynb` then commit/push.
   - Update any internal links to point to the kept file.
 
