@@ -60,7 +60,6 @@ Ceres and Mars terraforming / planet-building sketches.
 Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
 
 - [00_vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/00_vision.md) – Overall vision and long-term horizon
-- [01_cliches_and_guiding_principles.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/01_cliches_and_guiding_principles.md) – Guiding principles and recurring heuristics
 - [self-evolving-ai.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md) – Self-evolving AI design and safeguards
 - [iterative-rd-prototypes.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/iterative-rd-prototypes.md) – Iterative R&D prototype roadmap
 - [ethical-ai-frameworks.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md) – Ethical AI frameworks and boundaries
