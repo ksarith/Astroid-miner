@@ -113,5 +113,7 @@ Open issues, PRs, or discussions encouraged. This is an evolving, collaborative 
 
 
 Project map & raw links: [Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md
+https://github.com/ksarith/Lazarus-Forge-
+
 
 Last major update: January 18, 2026
