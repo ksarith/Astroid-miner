@@ -25,6 +25,9 @@ One big, highly optimized vehicle or surface factory that does mining, refining,
 **Verdict for long-term industrialization**  
 Not viable beyond TRL demonstration. Too fragile, too Earth-dependent.
 
+Leviathan-Class Processing Units (Conceptual)
+Optional large hybrid units for >1 km asteroids where swarm coordination overhead dominates. Not required for baseline replication; treated as late-stage, high-risk, high-reward infrastructure.
+
 ## 2. Pure Swarm (thousands to billions of small, simple units)
 
 **Description**  
