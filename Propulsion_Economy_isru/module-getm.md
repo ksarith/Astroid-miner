@@ -6,6 +6,11 @@ High-thrust propulsion and gas-resource extraction from outer-planet atmospheres
 **Secondary / bonus capability**  
 When mission parameters allow, precise trajectory targeting and material ejection (coilgun, 10⁴ m/s) for terraforming precursor delivery or orbital construction supply.
 
+Supplemental Mass-Ejection Propulsion (Uranus Ejector)
+Some swarm modules include a waste-mass ejector (“Uranus Ejector”) that converts non-product material—volatile excess, regolith fines, failed prints, and spent reactants—into directed reaction mass.
+This system is supplemental, not primary: it supports station-keeping, despin, momentum exchange, emergency Δv, and long-duration efficiency gains by eliminating dead mass, but does not replace dedicated propulsion or power-based drives.
+Availability, thrust, and ISP are bounded by waste stream composition and processing state, making the ejector opportunistic rather than mission-critical.
+
 **Tertiary capability**  
 Rogue-unit recovery: probe, intercept, and physically disable/capture non-compliant swarm members (0.1% risk mitigation).
 
