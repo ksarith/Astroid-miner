@@ -45,6 +45,8 @@ Solar thermal backbone, energy scaling, superconductor proposals, orbital farm c
 ## terraforming-core/
 Ceres and Mars terraforming / planet-building sketches.
 
+- [Martian atmosphere](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/Martian_Atmosphere.md) 
+
 - [ceres-planet-building.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/ceres-planet-building.md) – Ceres as planet-building seed
 - [Ceres refining](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/ceres_metabolic_nucleus.md) - expanding Ceres planet-building ideology
 - [mars_core_jumpstart_sketch.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md) – Mars core jumpstart sketch
