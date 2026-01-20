@@ -1,58 +1,105 @@
-# GETM — Gas Extraction & Thrust Module
+GETM — Gas Extraction & Thrust Module
 
-**Primary role**  
-High-thrust propulsion and gas-resource extraction from outer-planet atmospheres (Uranus, Jupiter, etc.) to support fleet fuel production, material transport, and long-range logistics.
+Role Summary
 
-**Secondary / bonus capability**  
-When mission parameters allow, precise trajectory targeting and material ejection (coilgun, 10⁴ m/s) for terraforming precursor delivery or orbital construction supply.
+Primary role
+High-thrust propulsion module optimized for rapid transit and logistics across the outer solar system (≈5–19 AU), with integrated atmospheric gas extraction to support fleet-scale fuel and material supply.
 
-Supplemental Mass-Ejection Propulsion (Uranus Ejector)
-Some swarm modules include a waste-mass ejector (“Uranus Ejector”) that converts non-product material—volatile excess, regolith fines, failed prints, and spent reactants—into directed reaction mass.
-This system is supplemental, not primary: it supports station-keeping, despin, momentum exchange, emergency Δv, and long-duration efficiency gains by eliminating dead mass, but does not replace dedicated propulsion or power-based drives.
-Availability, thrust, and ISP are bounded by waste stream composition and processing state, making the ejector opportunistic rather than mission-critical.
+Secondary capability
+Atmospheric resource harvesting (H₂, He, trace gases) from gas giants to bootstrap propellant, power, and long-duration operations.
 
-**Tertiary capability**  
-Rogue-unit recovery: probe, intercept, and physically disable/capture non-compliant swarm members (0.1% risk mitigation).
+Supplemental capability — Mass-Ejection Propulsion (“Uranus Ejector”)
+Waste material (volatile excess, regolith fines, failed prints, spent reactants) may be expelled as directed reaction mass for efficiency gains.
 
-## Design Rationale
+This system is supplemental, not primary. It supports station-keeping, despin, momentum exchange, emergency Δv, and dead-mass elimination, but does not replace dedicated propulsion or power-driven thrust systems. Performance is opportunistic and bounded by waste stream availability and composition.
 
-- Thrust-first design maximizes Δv and mission velocity → faster bootstrapping of distant operations (5–19 AU).  
-- Scooping is secondary because high-thrust transit is the bigger bottleneck for outer-system scaling.  
-- Rogue recovery is tertiary because it is a low-probability but high-consequence safety requirement.  
-- All capabilities gated behind ethical AI checks to maintain peaceful-use-only posture.
+Tertiary capability
+Rogue-unit recovery: detection, interception, and physical disablement or capture of non-compliant swarm elements (low probability, high consequence risk mitigation).
 
-## Current Proposed Specifications (concept stage — January 2026)
 
-| Category               | Specification                                      | Notes / Status                          |
-|------------------------|----------------------------------------------------|-----------------------------------------|
-| **Mass**               | ~5,000 kg                                          | Reduced from earlier 10⁴ kg for thrust efficiency |
-| **Dimensions**         | 4 m × 1.5 m × 1.5 m                                | Streamlined for high-velocity transit   |
-| **Hull / Shielding**   | CNT-graphene composite (~100 GPa) + SiC multilayer (5 mm) | 98% heat resistance @ 1,500°C, radiation hardening for ~0.1 R/h (Uranus) |
-| **Primary Propulsion** | Fusion plasma thrusters (~10.5 MW/kg, ~10⁴ N thrust) | Δv target 10,000 m/s, H₂ fuel from scooping |
-| **Secondary Propulsion** | Hall-effect ion thrusters (~40 km/s Δv, ~10⁻³ m/s²) | Efficiency mode, limits weaponization potential |
-| **Power**              | Compact fusion reactor (~50 W, 99.5% uptime) + CNT solar backup (~100 W/m² @ 19 AU, 5 m²) | Superconductor bus (193 K) for 0% loss |
-| **Scooping**           | CNT-diamond scoops (~5 m²) + cryogenic tanks (~20 K) | ~10 kg/day H₂/He-3 at ~15 km/s relative velocity |
-| **Processing**         | Magneto-centrifugal gas separator                  | H₂ ~90%, He-3 ~0.001%, ~1 kg/day stored |
-| **Ejection (bonus)**   | Electromagnetic coilgun (superconductor coils, 0.3 T) | 10⁴ m/s, ~5 kg payload, 98% efficiency |
-| **Rogue Recovery**     | LIDAR (10 m resolution) + CNT grappling arms (~100 N) | Autonomous intercept & disable sequence |
-| **Compute**            | Quantum-dot AI nodes (~10¹³ flops/W)               | Neuroevolution (NEAT) + RL + ethical reward shaping |
-| **Ethical / Safety**   | Asimov laws, DAO consensus (80–99%), anomaly detection (99.9%), thermal kill switches (>200 K) | Transparency via public telemetry |
-| **Comms**              | Laser (10⁸ bits/s, superconductor) + radio backup  | 5 AU range, AI compression (95%) |
-| **Environmental**      | Operates ~76 K (Uranus), radiation ~0.1 R/h, micrometeorite flux ~10⁻⁴/m²/year | SiC-CNT shielding, self-healing CNT layers |
-| **Unit count (planned)** | 50 units                                           | ~$15M total, offset by ~$20M H₂O/H₂ sales |
+---
 
-## Key Open Questions
+Design Rationale
 
-- Fusion maturity timeline (10.5 MW/kg realistic by 2030–2035?)  
-- Realistic scooping yield at Uranus wind speeds (~250 m/s) and low density  
-- Radiation hardening cost/benefit trade-off vs. Jupiter (~10 R/h)  
-- Rogue recovery success probability in high-relative-velocity intercepts  
-- Ethical-AI false-positive rate when gating high-thrust modes
+Thrust-first architecture: Transit time, not extraction rate, is the dominant bottleneck for outer-system scaling.
 
-## Related Files
+Integrated ISRU: Scooping is secondary but strategically critical for fuel independence and logistics resilience.
 
-- [safety-and-ethics.md](../safety-and-ethics.md) — full anti-weaponization rationale  
-- [CONCEPT.md](../CONCEPT.md) — hybrid small/large unit philosophy  
-- [large-unit-concept.md](../large-unit-concept.md) — asteroid-consuming “monster” variant
+Waste-as-resource philosophy: Non-product mass is minimized wherever safely possible.
 
-Feedback and realism checks very welcome — Issues or Discussions preferred.
+Safety-first governance: High-thrust and interception modes are gated behind ethical AI controls and consensus checks.
+
+
+
+---
+
+Current Proposed Specifications
+
+(Concept stage — January 2026; values indicative, not commitments)
+
+Category	Specification	Notes
+
+Dry Mass	~5,000 kg	Reduced from earlier concepts for thrust efficiency
+Dimensions	~4 m × 1.5 m × 1.5 m	Streamlined for high-velocity transit
+Structure / Shielding	CNT–graphene composite + multilayer SiC (~5 mm)	Thermal, radiation, and micrometeoroid resistance
+Primary Propulsion	High-power plasma or fusion-assisted thrusters	High-thrust transit; exact technology TBD
+Secondary Propulsion	Hall-effect / ion thrusters	High-efficiency cruise & fine control
+Power System	High-density reactor (speculative) + limited solar backup	Solar is auxiliary only at ≥10 AU
+Gas Scooping	CNT-diamond intake surfaces + cryogenic capture	Optimized for H₂; trace He capture
+Processing	Magneto-centrifugal gas separation	Low-throughput, continuous operation
+Mass-Ejection (Supplemental)	Electromagnetic ejector / coilgun	Uses non-product mass only
+Rogue Recovery	LIDAR + grappling mechanisms	Non-destructive capture preferred
+Compute	Distributed AI control nodes	Navigation, safety, and coordination
+Ethical / Safety Systems	Constraint-based control, consensus gating, kill states	Anti-weaponization by design
+Communications	Laser primary + RF fallback	Long-range, low-latency where possible
+Operational Envelope	~70–100 K, low-density atmospheres	Uranus-optimized; Jupiter optional with upgrades
+
+
+
+---
+
+What GETM Is Not
+
+Not a weapon system
+
+Not a primary terraforming device
+
+Not a self-replicating authority node
+
+Not dependent on the Uranus Ejector for mission success
+
+
+
+---
+
+Key Open Questions
+
+Realistic reactor power density and maturity timeline
+
+Achievable scooping rates at safe relative velocities
+
+Long-term erosion and contamination of intake surfaces
+
+Intercept feasibility for rogue units at high Δv
+
+False-positive rates in ethical gating of high-thrust modes
+
+
+
+---
+
+Related Files
+
+safety-and-ethics.md — anti-weaponization and control rationale
+
+CONCEPT.md — hybrid swarm philosophy
+
+large-unit-concept.md — large-scale asteroid-processing variant
+
+Project map & raw links: 
+https://github.com/ksarith/Lazarus-Forge-
+[Lazarus Forge Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)
+Project map & raw links: 
+https://github.com/ksarith/Astroid-miner
+[Astroid-miner Discovery.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Discovery.md)
+
