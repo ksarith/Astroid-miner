@@ -25,11 +25,9 @@ Delta-v budgets, reaction mass loops, low-value strategy, zero-g ops, Uranus Eje
 - [zero_g_fabrication.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md) – Zero-g fabrication techniques
 
 ## notebooks/
-Simulation notebooks and early thought logs.
+Simulation notebooks and early thought logs.  
 
-- [delta_v_and_ISRU_economy.ipynb](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/delta_v_and_ISRU_economy.ipynb) – Delta-v and ISRU economy modeling
-- [swarm_replication_growth.ipynb](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/swarm_replication_growth.ipynb) – Swarm replication growth simulation
-- [volatile_extraction_thermal.ipynb](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/notebooks/volatile_extraction_thermal.ipynb) – Thermal volatiles extraction modeling
+- Deleted Jupyter notes: still too early
 - Astroid Mining.txt
 - Astroid Mining2.txt
 - Astroid Mining3.txt
