@@ -22,7 +22,6 @@ Delta-v budgets, reaction mass loops, low-value strategy, zero-g ops, Uranus Eje
 - [delta-v_and_reaction_mass_economy.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/delta-v_and_reaction_mass_economy.md) – Delta-v and reaction mass economy
 - [low-value-acquisitions_strategy.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/low-value-acquisitions_strategy.md) – Low-value resource prioritization
 - [module-getm.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/module-getm.md) – GETM (Gas Extraction & Thrust Module)
-- [uranus_ejector_as_propulsion.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/uranus_ejector_as_propulsion.md) – Uranus Ejector repurposed for propulsion
 - [zero-g-collection-anchoring.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md) – Zero-g collection and anchoring methods
 - [zero_g_fabrication.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md) – Zero-g fabrication techniques
 
