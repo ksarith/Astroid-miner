@@ -69,6 +69,20 @@ Not a self-replicating authority node
 Not dependent on the Uranus Ejector for mission success
 
 
+---
+
+
+Propulsion Economy & Reaction Mass Principle
+After the first replication loop, the swarm aims for closed-loop mobility: no net mass leaves the system except as useful product or intentional exhaust. All mined material is allocated to:
+Structure (modules, panels, habitats)
+Product (metals, volatiles)
+Propellant / reaction mass
+Waste-to-propulsion strategy: Non-product material (regolith fines, volatiles, failed prints) is converted to reaction mass opportunistically via the Uranus Ejector or similar cycles. Early operations rely on CH₄/H₂O from C-type asteroids, supplemented by Sabatier conversion of CO₂ + H₂ when needed. Later stages can leverage metal-oxygen cycles, water electrolysis, or momentum-exchange tethers to minimize consumable propellant use.
+Scaling insight:
+Early phase: H₂O electrolysis + Uranus Ejector dominates.
+Mid-phase: CO₂ and metal-oxygen cycles supplement as feedstock grows.
+Mature phase: Tether-based or beamed-power systems reduce propellant dependency toward near-zero consumable use.
+Open considerations: Minimum CH₄ fraction for stable ejection, energy trade-offs for recycling versus direct propellant mining, and safe exhaust vectoring to avoid debris hazards.
 
 ---
 
