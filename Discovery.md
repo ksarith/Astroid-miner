@@ -15,7 +15,6 @@ High-level system design, swarm philosophy, stability, ejector modules.
 - [zero-spheres-stability.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/zero-spheres-stability.md) – Stability for spherical structures
 - [uranus_ejector_module.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/uranus_ejector_module.md) – Uranus Ejector module design
 - [system_architecture_overview.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/system_architecture_overview.md) – Overall system architecture summary
-- [large-unit-concept.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/large-unit-concept.md) – Concept for large-scale "monster" units
 
 ## Propulsion_Economy_isru/
 Delta-v budgets, reaction mass loops, low-value strategy, zero-g ops, Uranus Ejector as propulsion.
