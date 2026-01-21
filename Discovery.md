@@ -57,6 +57,7 @@ Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
 - [self-evolving-ai.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md) – Self-evolving AI design and safeguards
 - [ethical-ai-frameworks.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md) – Ethical AI frameworks and boundaries
 - [Rogue Unit Management](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Rogue_unit_management.md)
+- [Safety Lights](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Safety_Lights.md) - mundane and fundamentally boring
 
 
 ## Notes on Swarm Notebooks
