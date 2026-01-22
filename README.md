@@ -18,6 +18,7 @@ Focus: bootstrapping capability over near-term commercialization.
 - **Explicit constraints** — Safety and ethical rules are embedded in the system, not implied.  
 - **Iterative realism** — Systems should be testable, auditable, and incrementally improvable.  
 - **Human-aligned autonomy** — Automation extends human capabilities; it does not replace oversight.
+- **Lazarus Forge principles** — naturally extend into the Astroid-miner architecture when we consider space resources not as raw ore, but as distributed functional feedstock needing autonomous ISRU.
 
 ## Authoritative Vision
 
