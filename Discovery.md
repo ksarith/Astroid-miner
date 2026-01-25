@@ -16,6 +16,8 @@ High-level system design, swarm philosophy, stability, ejector modules.
 - [uranus_ejector_module.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/uranus_ejector_module.md) – Uranus Ejector module design
 - [system_architecture_overview.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/system_architecture_overview.md) – Overall system architecture summary
 - [system redundancy](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/architecture-high-level/Fault-Tolerant-Power-Control.md) - Fault tolerance systems
+- [Roles of Units](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/architecture-high-level/Roles_Doctrine.md) - Defining generalized units as core key for success.
+
 
 ## Propulsion_Economy_isru/
 Delta-v budgets, reaction mass loops, low-value strategy, zero-g ops, Uranus Ejector as propulsion.
