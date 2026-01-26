@@ -44,14 +44,33 @@ The `architecture-high-level/` folder defines the foundational structure of the 
 - **[Roles Doctrine](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/architecture-high-level/Roles_Doctrine.md)** — Defines the doctrine of generalized units with emergent, context-driven roles, rejecting rigid specialization in favor of adaptive, fabrication-enabled role biasing.
 
 
+## Power — Solar Backbone
 
-## Propulsion_Economy_isru/
-Delta-v budgets, reaction mass loops, low-value strategy, zero-g ops, Uranus Ejector as propulsion.
-- [Magnetic Drive](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/Magnetic_Drive.md) - proposed thrust mechanism
-- [low-value-acquisitions_strategy.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/low-value-acquisitions_strategy.md) – Low-value resource prioritization
-- [module-getm.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/module-getm.md) – GETM (Gas Extraction & Thrust Module)
-- [zero-g-collection-anchoring.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md) – Zero-g collection and anchoring methods
-- [zero_g_fabrication.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md) – Zero-g fabrication techniques
+The `power-solar-backbone/` folder explores the foundational energy infrastructure required to support large-scale autonomous mining, processing, fabrication, and logistics across the Solar System. These documents examine how energy generation, transmission, and scaling must evolve to sustain non-human industrial systems operating over astronomical distances and timescales.
+
+- **[Energy Scaling](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/energy-scaling.md)** — Analyzes how available solar energy scales with distance from the Sun and the implications this has for system architecture, mission planning, and power budgeting across AU-scale operations.
+
+- **[Superconductor Interconnect Proposal](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/superconductor_interconnect_proposal.md)** — Proposes the use of superconducting interconnects for high-efficiency power transmission between distributed solar collectors, processing nodes, and industrial units.
+
+- **[1.5 AU Solar Farm Concept](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/1.5_AU_solar_farm_concept.md)** — Describes a conceptual solar farm positioned at approximately 1.5 AU, examining tradeoffs between solar flux, orbital stability, material availability, and integration into a system-wide energy backbone.
+
+
+## Propulsion — Economy & ISRU
+
+The `Propulsion_Economy_isru/` folder addresses mobility as an economic and systemic problem rather than a purely mechanical one. These documents examine how autonomous units move, reposition, anchor, and apply force using locally available resources, low-value reaction mass, and long-duration thrust strategies. Propulsion is treated as a continuous, integrated capability rather than a discrete burn-based event.
+
+- **[Magnetic Drive](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/Magnetic_Drive.md)** — Proposes a non-traditional thrust mechanism based on electromagnetic interaction, emphasizing low-thrust, long-duration force application suitable for gradual repositioning, towing, and orbital shaping.
+
+- **[Low-Value Acquisitions Strategy](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/low-value-acquisitions_strategy.md)** — Outlines a propulsion economy that prioritizes abundant, low-value materials as reaction mass, preserving high-value resources while enabling scalable and repeatable movement.
+
+- **[GETM — Gas Extraction & Thrust Module](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/module-getm.md)** — Describes a modular system that couples gas extraction directly with thrust generation, closing the loop between resource acquisition and propulsion.
+
+- **[Zero-G Collection & Anchoring](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md)** — Examines methods for stabilizing, anchoring, and interacting with objects in microgravity, enabling controlled extraction, fabrication, and force transfer without reliance on gravity wells.
+
+- **[Zero-G Fabrication](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md)** — Explores fabrication techniques optimized for zero-gravity environments, where traditional assumptions about tooling, material flow, and structural support no longer apply.
+
+
+
 
 ## notebooks/
 Simulation notebooks and early thought logs.  
@@ -60,24 +79,6 @@ Simulation notebooks and early thought logs.
 - Astroid Mining.txt
 - Astroid Mining2.txt
 - Astroid Mining3.txt
-
-## power-solar-backbone/
-Solar thermal backbone, energy scaling, superconductor proposals, orbital farm concepts.
-
-- [energy-scaling.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/energy-scaling.md) – Energy scaling across AU distances
-- [superconductor_interconnect_proposal.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/superconductor_interconnect_proposal.md) – Proposal for superconductor interconnects
-- [1.5_AU_solar_farm_concept.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/1.5_AU_solar_farm_concept.md) – Solar farm concept at 1.5 AU
-  
-
-## terraforming-core/
-Ceres and Mars terraforming / planet-building sketches.
-
-- [Martian atmosphere](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/Martian_Atmosphere.md) 
-- [ceres-planet-building.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/ceres-planet-building.md) – Ceres as planet-building seed
-- [Ceres refining](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/ceres_metabolic_nucleus.md) - expanding Ceres planet-building ideology
-- [mars_core_jumpstart_sketch.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md) – Mars core jumpstart sketch
-- [mars_atmosphere_bootstrapping.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md) – Mars atmosphere bootstrapping concepts
-- [How to put planets in their place](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/planetary_orbital_conditioning.md)
 
 
 ## Notes on Swarm Notebooks
