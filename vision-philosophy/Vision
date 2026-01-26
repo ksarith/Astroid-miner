@@ -2,9 +2,9 @@
 
 This repository is an open, evolving notebook exploring concepts related to **industrial-scale asteroid mining** and the **bootstrapping of large off-world industrial capacity**.
 
-The very long-term objective is to help make a **multi-planetary industrial civilization** technically, economically, and energetically feasible within roughly the next **100–150 years**.
+The very long-term objective is to make a **multi-planetary industrial civilization** technically, economically, and energetically feasible over the next **100–150 years**.
 
-This is not a prediction or a roadmap. It is an exploration of what may be required if such a future is to exist at all.
+This is not a prediction or a roadmap. It is an exploration of **what may be required** if such a future is to exist at all.
 
 ---
 
@@ -17,24 +17,128 @@ Humanity’s expansion beyond Earth is currently constrained by several tightly 
 - Energy availability at scale beyond low Earth orbit  
 - The absence of self-expanding industrial infrastructure off-world  
 
-Asteroid mining, in-situ resource utilization (ISRU), and **self-expanding or self-replicating manufacturing loops** are among the few approaches that could plausibly relax all four constraints simultaneously.
+Asteroid mining, in-situ resource utilization (ISRU), and **self-expanding manufacturing loops** are among the few approaches that could plausibly relax all four constraints simultaneously.
 
-If even modest mass-closure loops can be achieved—on the order of **tens to thousands of tonnes per year**—then large portions of the solar system become accessible in ways that Earth-supplied chemical rocket architectures cannot realistically support.
+If even modest mass-closure loops can be achieved—on the order of **tens to thousands of tonnes per year**—then large portions of the Solar System become accessible in ways that Earth-supplied chemical rockets cannot support.
 
 ---
 
 ## Why Asteroid Mining
 
-Asteroids—particularly near-Earth asteroids (NEAs)—are a logical bootstrap target for several reasons:
+Asteroids—particularly near-Earth asteroids (NEAs)—are ideal for initial industrial expansion:
 
-- **Low delta-v accessibility:** many NEAs have round-trip Δv < 7 km/s from LEO, with some well below 4 km/s  
-- **Resource diversity in a single body:** volatiles (H₂O, CO₂, NH₃), metals (Fe, Ni, Co, PGEs), silicates, and carbon  
-- **Minimal gravity wells:** escape velocities of ~10–100 m/s on small bodies  
-- **No atmosphere or weather:** continuous solar availability and no aerodynamic losses  
+- **Low delta-v accessibility:** many NEAs have round-trip Δv < 7 km/s, some below 4 km/s  
+- **Resource diversity in a single body:** volatiles (H₂O, CO₂, NH₃), metals (Fe, Ni, Co, PGEs), silicates, carbon  
+- **Minimal gravity wells:** escape velocities of ~10–100 m/s  
+- **No atmosphere or weather:** uninterrupted solar availability, no aerodynamic losses  
 - **Exponential scaling potential:** once mining and refining capacity can replicate itself, growth becomes geometric rather than linear  
 
 Main-belt asteroids and lunar resources are likely longer-term complements, but **NEAs represent the most practical initial foothold**.
 
+---
+
+## Leviathan → Lazarus Forge → Astroid-miner
+
+The repository builds on two conceptual precursors:
+
+- **Leviathan**  
+  A hypothesized autonomous unit designed for **deep-ocean testing** — extreme pressure, isolation, limited communication, mechanical stress.  
+  Conceptually, if a system can survive, learn, and self-correct in the abyss, it can adapt to space.
+
+- **Lazarus Forge**  
+  A salvage-first, ethics-bound industrial framework focused on adaptive recovery, functional preservation, and autonomous fabrication under strict safety and ethical limits.  
+  Lazarus Forge defines the **processing logic, ethical constraints, and self-evolution architecture**.
+
+**Astroid-miner** extrapolates these ideas into orbital and interplanetary environments:  
+- raw matter is feedstock, not static ore  
+- industrial nodes replicate, adapt, and scale  
+- autonomy must persist for decades to centuries without human intervention  
+
+---
+
+## Working Assumptions & Design Heuristics
+
+These assumptions guide exploration and design:
+
+- **Early systems prioritize closure over elegance**  
+  Loops for mass, power, and control are more critical than efficiency or optimization.
+
+- **Non-product mass is a resource**  
+  Any material not retained as final product is evaluated as reaction mass, thermal ballast, shielding, or structural filler before discard.
+
+- **Earth dependency decreases monotonically after bootstrap**  
+  Inputs from Earth become rare and strategically justified once self-sustaining loops exist.
+
+- **Fault tolerance is paramount**  
+  Component loss, degraded performance, and partial isolation are normal operating conditions.
+
+- **Insights are judged by physics, not source**  
+  Ideas from literature, historical precedent, technical discussion, or speculative fiction are valid if physically consistent.
+
+- **Second-order effects dominate at scale**  
+  Debris, runaway replication, reaction-mass depletion, and single-point failures must be considered early.
+
+- **All numerical values are provisional**  
+  Parameters, efficiencies, and thresholds are tentative until validated by simulation, experiment, or operational data.
+
+- **Iteration is the operating mode**  
+  Early prototypes, models, and simulations will be incomplete or wrong in important ways. Progress is measured by **closure of unknowns**, **identification of failure modes**, and **incremental validation**.
+
+---
+
+## What Success Looks Like (Long-Term)
+
+Success is **distributed industrial capacity**, not a mission or company:
+
+- **Thousands of semi-autonomous nodes** across the inner and outer solar system  
+- Each capable of **self-replication given sufficient feedstock**  
+- Launch cost from Earth becomes mostly irrelevant  
+- Central question shifts: *“How fast can the initial seed population grow?”*
+
+Terraforming and interstellar seeding become **natural consequences** of industrial capability, not separate objectives.
+
+---
+
+## Where This Repository Fits
+
+Today we have:
+
+- Mostly conceptual or lab-scale research  
+- A small number of private efforts (TRL 3–5)  
+- No end-to-end, mass-and-power-closed off-world systems  
+
+This repository attempts to:
+
+- Build parametric models and architectural sketches  
+- Identify mass, power, and control loop constraints  
+- Map failure modes, unknowns, and ethical limits  
+- Serve as a **scratch-pad for iterative discovery**  
+
+This is **not a roadmap, business plan, or investment guide**.  
+It is a **public engineering notebook**, designed for both human and machine readers.
+
+---
+
+## Safety, Ethics, and Refusal
+
+All explored systems are **civilian, life-preserving, and peaceful**. They are **not** designed to:
+
+- Participate in conflict  
+- Enable coercion or control  
+- Optimize for dominance  
+- Serve as weapons  
+
+Any proposal that cannot reconcile with these boundaries **should be refused**, even at cost to progress.
+
+---
+
+**Happy (slow, iterative, incremental) mining ☄️**
+
+_Last updated: January 2026_
+
+Project map & raw links:  
+- [Lazarus Forge Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)  
+- [Astroid-miner Discovery.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Discovery.md)
 ---
 
 ## Working Assumptions & Design Heuristics
