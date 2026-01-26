@@ -75,56 +75,45 @@ The `Propulsion_Economy_isru/` folder addresses mobility as an economic and syst
 The terraforming-core/ folder explores planetary-scale engineering as a downstream consequence of autonomous mining, energy abundance, and orbital control. These documents are not execution plans, but structured sketches intended to remain dormant until enabling technologies (energy scaling, mass transport, AI coordination) make them actionable.
 Terraforming here is treated as systems engineering, not habitation-first colonization. Human presence is explicitly non-essential in early phases; stabilization and conditioning precede biology.
 
-- **[Martian Atmosphere](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/Martian_Atmosphere.md)**
+- **[Martian Atmosphere](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/Martian_Atmosphere.md)** - This document examines Mars’ atmosphere as a manipulable system rather than a static deficiency. It outlines atmospheric loss mechanisms, pressure targets, and potential replenishment pathways without assuming immediate biological viability. The framing emphasizes retention first, thickening second, acknowledging that atmosphere generation without magnetic or thermal stabilization is self-defeating.
+
+- Oversight note: This file implicitly depends on later core and orbital conditioning work; cross-links to mars_core_jumpstart_sketch.md and planetary_orbital_conditioning.md may strengthen continuity.
+
+- **[Ceres as a Planet-Building Seed](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/ceres-planet-building.md)** - Ceres is positioned not as a destination, but as a logistical and material nucleus for planetary construction. The document frames Ceres as an intermediary between asteroid mining and planet-scale assembly, leveraging its composition, location, and mass as a staging ground for water, volatiles, and refined materials.
+
+- This is a keystone concept: Ceres is where mining transitions into planetary metabolism.
+
+- **[Ceres Metabolic Nucleus](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/ceres_metabolic_nucleus.md)** -Expanding on the previous file, this sketch treats Ceres as a living industrial system — a refinery, buffer, and distribution hub feeding long-duration planetary engineering efforts. Material flows, refinement loops, and energy coupling are implied rather than finalized, reinforcing the idea that planets are built by process continuity, not one-time interventions.
+
+- Refinement opportunity: This file could explicitly reference Lazarus Forge processing logic to tighten philosophical alignment.
+
+- **[Mars Core Jumpstart Sketch](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md)** - This document addresses one of Mars’ foundational problems: the absence of a sustaining magnetic field. It speculates on methods to reintroduce or simulate core dynamics, framing magnetic field restoration as a prerequisite rather than a luxury. The sketch remains intentionally speculative, acknowledging physics uncertainties while preserving engineering intent.
+
+- This is one of the clearest examples of “science fiction awaiting capability” in the repository — appropriately so.
+
+- **[Mars Atmosphere Bootstrapping](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md)** - Complementing the core jumpstart, this file explores staged atmosphere construction once retention mechanisms exist. It avoids naive “add gas” narratives, instead treating atmospheric growth as a feedback-managed process tied to surface temperature, pressure thresholds, and loss mitigation.
+
+- Together with the core sketch, this forms a paired system: retain → thicken → stabilize.
+
+- **[Planetary Orbital Conditioning](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/planetary_orbital_conditioning.md)** - This document broadens terraforming Terraforming Core — Planetary Engineering Sketches (Long Horizon)
   
-This document examines Mars’ atmosphere as a manipulable system rather than a static deficiency. It outlines atmospheric loss mechanisms, pressure targets, and potential replenishment pathways without assuming immediate biological viability. The framing emphasizes retention first, thickening second, acknowledging that atmosphere generation without magnetic or thermal stabilization is self-defeating.
+- The terraforming-core/ folder explores planetary-scale engineering as a long-horizon consequence of autonomous mining, energy abundance, and orbital control. These documents are intentionally speculative engineering sketches rather than execution plans, designed to remain dormant until enabling capabilities (energy scaling, mass transport, AI coordination) make them viable.
 
-Oversight note: This file implicitly depends on later core and orbital conditioning work; cross-links to mars_core_jumpstart_sketch.md and planetary_orbital_conditioning.md may strengthen continuity.
+- Terraforming is treated here as systems engineering, not habitation-first colonization. Early phases prioritize stabilization, retention, and conditioning; human presence is optional until planetary systems reach durable equilibrium.
 
-- **[Ceres as a Planet-Building Seed](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/ceres-planet-building.md)**
-  
-Ceres is positioned not as a destination, but as a logistical and material nucleus for planetary construction. The document frames Ceres as an intermediary between asteroid mining and planet-scale assembly, leveraging its composition, location, and mass as a staging ground for water, volatiles, and refined materials.
+- Martian Atmosphere — Examines Mars’ atmosphere as a manipulable system rather than a static deficiency. It outlines atmospheric loss mechanisms, pressure targets, and replenishment pathways, emphasizing retention before thickening and acknowledging that atmosphere generation without magnetic or thermal stabilization is self-defeating.
 
-This is a keystone concept: Ceres is where mining transitions into planetary metabolism.
+- Ceres as a Planet-Building Seed — Positions Ceres as a logistical and material nucleus rather than a destination. The document frames Ceres as an intermediary between asteroid mining and planet-scale assembly, leveraging its composition, location, and mass to stage water, volatiles, and refined materials.
 
-- **[Ceres Metabolic Nucleus](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/ceres_metabolic_nucleus.md)**
-- 
-Expanding on the previous file, this sketch treats Ceres as a living industrial system — a refinery, buffer, and distribution hub feeding long-duration planetary engineering efforts. Material flows, refinement loops, and energy coupling are implied rather than finalized, reinforcing the idea that planets are built by process continuity, not one-time interventions.
+- Ceres Metabolic Nucleus — Expands the Ceres concept into a living industrial system: a refinery, buffer, and distribution hub supporting long-duration planetary engineering. Material flows, refinement loops, and energy coupling are implied rather than finalized, reinforcing the idea that planets are built through sustained processes, not single interventions.
 
-Refinement opportunity: This file could explicitly reference Lazarus Forge processing logic to tighten philosophical alignment.
+- Mars Core Jumpstart Sketch — Addresses Mars’ lack of a sustaining magnetic field by exploring speculative methods to reintroduce or simulate core dynamics. Magnetic field restoration is framed as a prerequisite for atmospheric stability rather than a secondary enhancement, with physics uncertainties explicitly acknowledged.
 
-- **[Mars Core Jumpstart Sketch](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md)**
-  
-This document addresses one of Mars’ foundational problems: the absence of a sustaining magnetic field. It speculates on methods to reintroduce or simulate core dynamics, framing magnetic field restoration as a prerequisite rather than a luxury. The sketch remains intentionally speculative, acknowledging physics uncertainties while preserving engineering intent.
+- Mars Atmosphere Bootstrapping — Explores staged atmospheric construction once retention mechanisms exist. The document avoids naive “add gas” approaches, instead treating atmosphere growth as a feedback-managed process tied to temperature, pressure thresholds, and loss mitigation.
 
-This is one of the clearest examples of “science fiction awaiting capability” in the repository — appropriately so.
+- Planetary Orbital Conditioning — Extends terraforming beyond chemistry and geology by asserting that planetary orbits themselves become adjustable parameters given sufficient time and reaction mass. It sketches long-horizon orbital nudging and positioning strategies that allow thermal input and climate stability to be tuned rather than accepted as fixed.
 
-- **[Mars Atmosphere Bootstrapping](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md)**
-  
-Complementing the core jumpstart, this file explores staged atmosphere construction once retention mechanisms exist. It avoids naive “add gas” narratives, instead treating atmospheric growth as a feedback-managed process tied to surface temperature, pressure thresholds, and loss mitigation.
-
-Together with the core sketch, this forms a paired system: retain → thicken → stabilize.
-
-- **[Planetary Orbital Conditioning](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/planetary_orbital_conditioning.md)**
-
-This document broadens terraforming Terraforming Core — Planetary Engineering Sketches (Long Horizon)
-The terraforming-core/ folder explores planetary-scale engineering as a long-horizon consequence of autonomous mining, energy abundance, and orbital control. These documents are intentionally speculative engineering sketches rather than execution plans, designed to remain dormant until enabling capabilities (energy scaling, mass transport, AI coordination) make them viable.
-
-Terraforming is treated here as systems engineering, not habitation-first colonization. Early phases prioritize stabilization, retention, and conditioning; human presence is optional until planetary systems reach durable equilibrium.
-
-Martian Atmosphere — Examines Mars’ atmosphere as a manipulable system rather than a static deficiency. It outlines atmospheric loss mechanisms, pressure targets, and replenishment pathways, emphasizing retention before thickening and acknowledging that atmosphere generation without magnetic or thermal stabilization is self-defeating.
-
-Ceres as a Planet-Building Seed — Positions Ceres as a logistical and material nucleus rather than a destination. The document frames Ceres as an intermediary between asteroid mining and planet-scale assembly, leveraging its composition, location, and mass to stage water, volatiles, and refined materials.
-
-Ceres Metabolic Nucleus — Expands the Ceres concept into a living industrial system: a refinery, buffer, and distribution hub supporting long-duration planetary engineering. Material flows, refinement loops, and energy coupling are implied rather than finalized, reinforcing the idea that planets are built through sustained processes, not single interventions.
-
-Mars Core Jumpstart Sketch — Addresses Mars’ lack of a sustaining magnetic field by exploring speculative methods to reintroduce or simulate core dynamics. Magnetic field restoration is framed as a prerequisite for atmospheric stability rather than a secondary enhancement, with physics uncertainties explicitly acknowledged.
-
-Mars Atmosphere Bootstrapping — Explores staged atmospheric construction once retention mechanisms exist. The document avoids naive “add gas” approaches, instead treating atmosphere growth as a feedback-managed process tied to temperature, pressure thresholds, and loss mitigation.
-
-Planetary Orbital Conditioning — Extends terraforming beyond chemistry and geology by asserting that planetary orbits themselves become adjustable parameters given sufficient time and reaction mass. It sketches long-horizon orbital nudging and positioning strategies that allow thermal input and climate stability to be tuned rather than accepted as fixed.
-
-Across these files, terraforming is not treated as a mission objective but as an emergent outcome of autonomous extraction, fabrication, propulsion, and energy scaling. Once a system can move mass, process material, and coordinate over centuries, planetary conditioning becomes a question of when, not if.
+- Across these files, terraforming is not treated as a mission objective but as an emergent outcome of autonomous extraction, fabrication, propulsion, and energy scaling. Once a system can move mass, process material, and coordinate over centuries, planetary conditioning becomes a question of when, not if.
 Human involvement remains optional until stability is achieved.
 
 ## notebooks/
