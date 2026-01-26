@@ -7,16 +7,42 @@ This file provides a complete overview of the current repository structure with 
 - [README.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/README.md) – Project overview
 - [Discovery.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Discovery.md) – This file
 
-## architecture-high-level/
-High-level system design, swarm philosophy, stability, ejector modules.
+## Vision — Philosophy
 
-- [Concepts.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/Concepts.md) – Core conceptual overview
-- [swarm-vs-monolith-vs-hybrid.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/swarm-vs-monolith-vs-hybrid.md) – Swarm vs monolithic vs hybrid architectures
-- [zero-spheres-stability.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/zero-spheres-stability.md) – Stability for spherical structures
-- [uranus_ejector_module.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/uranus_ejector_module.md) – Uranus Ejector module design
-- [system_architecture_overview.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/system_architecture_overview.md) – Overall system architecture summary
-- [system redundancy](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/architecture-high-level/Fault-Tolerant-Power-Control.md) - Fault tolerance systems
-- [Roles of Units](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/architecture-high-level/Roles_Doctrine.md) - Defining generalized units as core key for success.
+These files capture strategic, ethical, and long-horizon thinking for the Astroid-miner project:
+
+- **[Interstellar Seeding](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Interstellar_Seeding.md)** — Lays out a doctrine for how and why autonomous industrial seeds should precede human colonization in interstellar space. It discusses role, autonomy, preparation, and ethical constraints on expansion beyond the Solar System.
+
+- **[Safety Lights](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Safety_Lights.md)** — Discusses strategies for ensuring safe operation of long-lived autonomous systems, including architectural safety guardrails, hazard signaling, and systemic indicators that guide risk-aware behaviors in distributed fleets.
+
+- **[Rogue Unit Management](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Rogue_unit_management.md)** — Explores how to identify, contain, and recover units that diverge from expected behavior or constraints. It frames rogue behavior as a risk state requiring detection, isolation, and resolution without undermining the broader swarm mission.
+
+- **[Oceanic Tests](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Oceanic_Tests.md)** — Describes the rationale for using deep ocean environments as analog testing grounds for autonomy that must cope with extreme conditions, limited communication, and mechanical stress before space deployment.
+
+- **[Ethical AI Frameworks](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md)** — A layered ethical architecture for the project’s distributed artificial intelligence. It combines hard safety constraints, reward shaping, meta-ethical evaluation, and human oversight to prevent harmful behaviors while enabling adaptive autonomy.
+
+- **[Self-Evolving AI](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md)** — Focuses on architectural patterns and resilience in self-modifying or self-evolving AI systems, especially concerning power systems, redundancy, fault tolerance, and long-term autonomy.
+
+
+
+## Architecture — High Level
+
+The `architecture-high-level/` folder defines the foundational structure of the Astroid-miner system. These documents establish the system’s architectural philosophy, swarm dynamics, stability considerations, redundancy strategies, and large-scale module concepts. This layer informs all downstream design decisions.
+
+- **[Concepts.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/Concepts.md)** — Establishes the core conceptual framework of the system, outlining high-level design assumptions, guiding principles, and architectural intent.
+
+- **[Swarm vs Monolith vs Hybrid](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/swarm-vs-monolith-vs-hybrid.md)** — Compares centralized, distributed, and hybrid system architectures, explaining why swarm-based approaches offer superior resilience, scalability, and fault tolerance for long-duration autonomous operations.
+
+- **[Zero Spheres Stability](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/zero-spheres-stability.md)** — Examines stability considerations for spherical or near-spherical structures, including rotational dynamics, anchoring strategies, and force distribution in low- and micro-gravity environments.
+
+- **[Uranus Ejector Module](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/uranus_ejector_module.md)** — Describes a large-scale ejector module concept designed for mass transfer, material ejection, or momentum exchange within extreme planetary or orbital environments.
+
+- **[System Architecture Overview](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/system_architecture_overview.md)** — Provides a consolidated overview of the complete system architecture, tying together unit roles, autonomy layers, logistics, processing, and control structures.
+
+- **[Fault-Tolerant Power Control](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/architecture-high-level/Fault-Tolerant-Power-Control.md)** — Details redundancy strategies, power routing, and failure isolation mechanisms that allow the system to continue operating despite partial subsystem loss.
+
+- **[Roles Doctrine](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/architecture-high-level/Roles_Doctrine.md)** — Defines the doctrine of generalized units with emergent, context-driven roles, rejecting rigid specialization in favor of adaptive, fabrication-enabled role biasing.
+
 
 
 ## Propulsion_Economy_isru/
@@ -52,17 +78,6 @@ Ceres and Mars terraforming / planet-building sketches.
 - [mars_core_jumpstart_sketch.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_core_jumpstart_sketch.md) – Mars core jumpstart sketch
 - [mars_atmosphere_bootstrapping.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/terraforming-core/mars_atmosphere_bootstrapping.md) – Mars atmosphere bootstrapping concepts
 - [How to put planets in their place](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/planetary_orbital_conditioning.md)
-
-## vision-philosophy/
-Guiding principles, self-evolving AI, ethical frameworks, safety commitments.
-
-- [Vision.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/Vision.md) – Overall vision and long-term horizon
-- [self-evolving-ai.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/self-evolving-ai.md) – Self-evolving AI design and safeguards
-- [ethical-ai-frameworks.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/vision-philosophy/ethical-ai-frameworks.md) – Ethical AI frameworks and boundaries
-- [Leviathan Ocean Testing](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Oceanic_Tests.md) - Ocean tests to prove functionality 
-- [Rogue Unit Management](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Rogue_unit_management.md)
-- [Safety Lights](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Safety_Lights.md) - mundane and fundamentally boring
-- [Interstellar Seeding Doctrine](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/vision-philosophy/Interstellar_Seeding.md) - How and when to leave our Solar System
 
 
 ## Notes on Swarm Notebooks
