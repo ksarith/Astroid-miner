@@ -5,6 +5,7 @@ This file provides a complete overview of the current repository structure with 
 ## Root
 - [CONTRIBUTING.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/CONTRIBUTING.md) – Contribution guidelines
 - [README.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/README.md) – Project overview
+- [Long Horizon](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/LONG_HORIZON.md) - Scope of the repository as a whole
 - [Discovery.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Discovery.md) – This file
 
 ## Vision — Philosophy
