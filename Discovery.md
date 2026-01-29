@@ -63,7 +63,9 @@ The `Propulsion_Economy_isru/` folder addresses mobility as an economic and syst
 - **[Magnetic Drive](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/Magnetic_Drive.md)** — Proposes a non-traditional thrust mechanism based on electromagnetic interaction, emphasizing low-thrust, long-duration force application suitable for gradual repositioning, towing, and orbital shaping.
 
 - **[Low-Value Acquisitions Strategy](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/low-value-acquisitions_strategy.md)** — Outlines a propulsion economy that prioritizes abundant, low-value materials as reaction mass, preserving high-value resources while enabling scalable and repeatable movement.
-
+  
+-  **[Feedstock Characterization](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/Feedstock-Characterization.md)** - Focus on analyzing mined resources.
+  
 - **[GETM — Gas Extraction & Thrust Module](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/module-getm.md)** — Describes a modular system that couples gas extraction directly with thrust generation, closing the loop between resource acquisition and propulsion.
 
 - **[Zero-G Collection & Anchoring](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md)** — Examines methods for stabilizing, anchoring, and interacting with objects in microgravity, enabling controlled extraction, fabrication, and force transfer without reliance on gravity wells.
