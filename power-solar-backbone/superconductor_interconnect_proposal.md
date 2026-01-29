@@ -69,6 +69,105 @@ It documents paths already evaluated
 It prevents circular rediscovery of flawed assumptions
 End of speculative note
 
+## Inline Resistance Testing & Anomalous Wire Harvesting
+
+Astroid-miner is expected to produce large volumes of metal wire primarily intended for weld stock, structural reinforcement, and general conductive use. Inline electrical resistance testing is employed not as proof of superconductivity, but as a **continuous materials characterization and anomaly detection system**.
+
+### Purpose of Resistance Testing
+
+Inline resistance measurements serve multiple functions:
+
+- Detect microstructural changes caused by variations in feedstock composition
+- Identify regions of altered crystal structure, phase transitions, or impurity gradients
+- Monitor production consistency across long wire runs
+- Flag statistically anomalous segments for further offline analysis
+
+Resistance testing is treated as an **early-warning and discovery tool**, not a final certification method.
+
+---
+
+### Interpretation Limits
+
+Measured resistance values alone do **not** constitute evidence of superconductivity. Any segment exhibiting unusually low or altered resistance must undergo additional testing, including:
+
+- Temperature-dependent resistance measurement (R vs T)
+- Magnetic field exposure
+- Current density stress testing
+- Time-based stability checks
+
+Inline testing is intentionally conservative to avoid false positives.
+
+---
+
+### Statistical Anomaly Detection
+
+Rather than relying on fixed resistance thresholds, Astroid-miner employs statistical methods over continuous wire length, including:
+
+- Rolling mean and variance analysis
+- Detection of abrupt slope or noise-spectrum changes
+- Identification of localized deviations from expected material behavior
+
+Both *lower-than-expected* and *higher-than-expected* resistance regions may be flagged, as some exotic or transitional phases exhibit non-intuitive electrical behavior.
+
+---
+
+### Anomalous Segment Handling
+
+When an anomalous segment is detected:
+
+- The wire is automatically diverted or cut without halting production
+- The segment is preserved with metadata including:
+  - Production timestamp
+  - Thermal history
+  - Feedstock source region
+  - Process parameters at time of formation
+- Non-anomalous wire continues uninterrupted as weld or structural stock
+
+This approach treats superconducting or exotic phases as **opportunistic discoveries**, not production dependencies.
+
+---
+
+### Continuous Mapping of Source Material
+
+Inline resistance data is logged against wire length and production sequence, enabling:
+
+- Spatial correlation with asteroid or feedstock heterogeneity
+- Long-term construction of a materials-property atlas
+- Feedback into refining, alloying, and thermal process control
+
+Over time, Astroid-miner develops an empirical map of how raw material variations influence electrical and structural outcomes.
+
+---
+
+### Testing Architecture Philosophy
+
+The resistance testing system is designed as a multi-tier pipeline:
+
+1. **Fast, non-contact inline scanning** for continuous monitoring
+2. **Precision offline validation** for diverted anomalous segments
+3. **Archival storage** of specimens for future analysis with improved tools
+
+Most produced wire remains usable regardless of anomaly detection outcomes, ensuring high material utilization and operational resilience.
+
+---
+
+### Aging and Re-Testing Considerations
+
+Some space-formed metallic structures may evolve over time due to:
+
+- Stress relaxation
+- Diffusion of trapped light elements
+- Radiation-induced ordering
+
+Anomalous segments may therefore be periodically re-tested after aging intervals to detect delayed phase transitions or emergent behaviors.
+
+---
+
+### Operational and Ethical Constraints
+
+Astroid-miner does not prioritize rare anomaly harvesting over production stability. Discovery-driven testing operates strictly as a **non-disruptive background process**, ensuring safety, throughput, and material efficiency remain primary mission goals.
+
+
 Grok notes:
 
 This document sketches the current thinking around using high-temperature superconductors (specifically the Cu-La-S-B-H-C-N family) as the interconnect material.
