@@ -321,83 +321,80 @@ This proposal does not claim to engineer superconductivity directly. Instead, it
 ---
 
 
-Grok notes:
 
-This document sketches the current thinking around using high-temperature superconductors (specifically the Cu-La-S-B-H-C-N family) as the interconnect material.
+## Grok Notes (February 2026 Update)
 
-## Why superconductors at all
+This section sketches aspirational thinking around high-temperature superconducting interconnects for the Astroid-miner power backbone, centered on a speculative Cu-La-S-B-H-C-N filament family. All engineering targets and applications remain **aspirational and conditional** on future material validation.
 
-At gigawatt-to-terawatt scales:
-- Resistive losses in copper become unacceptable (even at 1% loss → 10–100 GW heat to radiate)
-- Conventional cryocooling (LN₂ at 77 K) adds massive mass & complexity
-- We need a material that operates at or near Mars ambient temperatures (~–80°C / 193 K shade side) without active refrigeration
+### Reality Check (February 2026)
+- No ambient-pressure superconductor with Tc > ~205 K has been independently replicated and community-accepted.
+- Confirmed record Tc values sit ~250–260 K only under extreme pressures (>100 GPa) in hydrides (e.g., LaH₁₀-class, carbonaceous sulfur hydride variants).
+- The reported 193 K zero-resistance observation is an internal experimental note from lab-scale synthesis. It requires full independent replication—including sharp R→0 transition, Meissner effect demonstration, specific-heat jump, field suppression consistent with type-II superconductivity, and long-term stability—before influencing design.
+- Until then, **no engineering reliance** on this (or any near-ambient HTS) is assumed. The backbone must baseline on proven conductors with acceptable losses.
 
-Goal: 193–210 K operation, zero resistive loss, high current density, manufacturable in situ from asteroid resources.
+### Why Superconductors at All (Motivation Remains Strong)
+At GW–TW scales over km–AU distances:
+- Resistive losses in even high-purity copper or aluminum become prohibitive (1% loss = 10–100 GW waste heat to radiate in space).
+- Conventional cryocooling (e.g., LN₂ at 77 K) imposes severe mass, power, and complexity penalties for distributed swarm infrastructure.
+- Ideal target: Zero-resistance operation near Mars-equivalent shade temperatures (~193 K / –80°C) without active refrigeration, using in-situ manufacturable materials.
 
-## Current candidate: Cu-La-S-B-H-C-N filament
-
-**Synthesis method (baseline)**
-- Substrate: Cu filament (~0.1 mm) or CNT-dominant (~0.1 μm Cu-S-H seed)
-- Bath: NH₃ (10 bar, 5°C, N₂ atmosphere)
+### Current Candidate: Cu-La-S-B-H-C-N Filament (Speculative / Internal)
+**Synthesis method (baseline – lab scale only)**
+- Substrate: Cu filament (~0.1 mm dia) or CNT-dominant nano-seed (~0.1 μm Cu-S-H core)
+- Bath: Liquid NH₃ (10 bar, 5°C, N₂ atmosphere)
 - Additives: LaCl₃ (0.02 M), (NH₄)₂S (0.15 M), urea (0.1 M), BCl₃ (0.01 M), NH₄OH (0.1 M), NH₄Cl (0.1 M), CNTs (~2 wt%)
 - Deposition: Pulsed DC (0.1 V, 0.01 A), 0.3 T magnetoelectrolysis
-- Shell: 1–5 μm thick with ~1.5–1.9 Å channels
-- Dopants: La (~2 at%), S (~6 at%), B (~2 at%), H (~5 at%), C-N (~2 at%)
-- Post-synthesis: 0.1 GPa H₂ anneal (200°C)
-- Encapsulation: Double CNT (~2 μm) + graphene (~0.1 μm) + Sn (~1 μm) for H retention (~10⁻¹² cm²/s)
+- Shell: 1–5 μm thick with ~1.5–1.9 Å effective channels
+- Dopants (approx.): La (~2 at%), S (~6 at%), B (~2 at%), H (~5 at%), C-N (~2 at%)
+- Post-synthesis: 0.1 GPa H₂ anneal (200°C) – note: adds pressure-vessel complexity; parallel low-pressure/plasma H-incorporation paths under consideration
+- Encapsulation: Double-wall CNT (~2 μm) + graphene (~0.1 μm) + Sn (~1 μm) barrier for H retention (~10⁻¹² cm²/s diffusivity target)
 
-**Test conditions**
+**Reported test snapshot (internal – unreplicated)**
 - Vacuum: 10⁻⁶ torr
 - Temperature ramp: –195°C → –80°C
 - Current: 0.01–1 A
-- Result: Zero resistance observed at 193 K (–80°C)
+- Observation: Apparent zero resistance (below ~10⁻⁸ Ω noise floor) at 193 K (–80°C)
 
-## Target performance (aspirational)
+**Aspirational performance targets (conditional on validation)**
 
-| Property                   | Current (2026)       | Mid-term goal (2035) | Long-term goal (2050+) |
-|----------------------------|----------------------|----------------------|------------------------|
-| Tc (critical temp)         | 193 K                | 200–210 K            | 220–250 K              |
-| Operating range            | –195°C to –80°C      | –150°C to –50°C      | –100°C to 0°C          |
-| Critical current density   | TBD                  | >10⁶ A/cm²           | >10⁷ A/cm²             |
-| Mass per meter             | ~0.1 g/m             | ~0.05 g/m            | ~0.02 g/m              |
-| Magnetic field tolerance   | 0.3 T (deposition)   | 5–10 T               | 20–50 T                |
-| H retention                | 10⁻¹² cm²/s          | 10⁻¹³ cm²/s          | 10⁻¹⁴ cm²/s            |
-| In-situ manufacturability  | Lab bath             | NEA/C-type reactor   | Fully autonomous       |
+| Property                   | Reported / Current (2026) | Mid-term Goal (2035) | Long-term Goal (2050+) |
+|----------------------------|---------------------------|----------------------|------------------------|
+| Tc (onset / zero resistance) | ~193 K (unreplicated)    | 200–210 K           | 220–250 K             |
+| Operating range (zero loss)| –195°C to –80°C           | –150°C to –50°C     | –100°C to 0°C         |
+| Critical current density   | TBD                       | >10⁶ A/cm²          | >10⁷ A/cm²            |
+| Mass per meter             | ~0.1 g/m                  | ~0.05 g/m           | ~0.02 g/m             |
+| Magnetic field tolerance   | 0.3 T (deposition only)   | 5–10 T              | 20–50 T               |
+| H retention (diffusivity)  | ~10⁻¹² cm²/s              | 10⁻¹³ cm²/s         | 10⁻¹⁴ cm²/s           |
+| In-situ manufacturability  | Lab bath only             | NEA/C-type reactor  | Fully autonomous      |
 
-## Applications in the swarm
+### Applications in the Swarm (Conditional on Material Maturity)
+1. **Solar farm bus** — TW-scale ring/spoke interconnects with near-zero loss; enables passive shade-side operation.
+2. **Power distribution** — Feeds massive solar harvest to Mars surface, orbital habs, propulsion depots.
+3. **High-speed data & compute interconnect** — Ultra-low-loss links for swarm-scale AI coordination.
+4. **Magnetic pulse coils** — Conceptual only for extreme applications (e.g., Mars core dynamo stimulation at 10²⁰–10²² J scale); energy storage/switching challenges dominate over conductor performance.
 
-1. **Solar farm bus**  
-   - Connects 10¹²–10¹⁴ m² panels into TW-scale ring/spoke topology  
-   - Zero resistive loss → no active cooling needed on shade side
+### Fallback & Hybrid Pathways (Resilience Layer)
+Until (if) any near-ambient HTS matures, the backbone must remain viable:
+- **Hybrid segments** — Short HTS links at high-current nodes only; majority run with high-purity Al or CNT macro-bundles at ambient (accept 2–5% loss, mitigated by deployable radiative fins).
+- **Active-cooled conventional** — LN₂ or LH₂ loops localized to solar-farm hubs (proven, but mass penalty).
+- **Optical / beamed power fallback** — Long-haul laser transmission to rectennas (avoids conductors; ~20–40% conversion losses but zero line loss).
+These ensure mission continuity independent of exotic-material breakthroughs.
 
-2. **Magnetic pulse coils**  
-   - 10 T coils for Mars core dynamo jumpstart (10²⁰–10²² J pulses)  
-   - Enables 0.1 G field generation without gigawatt-scale resistive heating
+### Manufacturing Path (Phased & Conditional)
+- **Seed phase** — Earth/Jonesboro lab (NH₃ bath, pulsed DC, 0.3 T field).
+- **Bootstrap phase** — In-orbit / NEA small reactors (explore reduced-pressure H paths to minimize vessel mass).
+- **Exponential phase** — Autonomous asteroid-fed printers (Cu, S, La, B, C, N sourcing; La abundance ~0.1–1 ppm in C-types remains a key constraint).
 
-3. **Power distribution**  
-   - Feeds TW from solar farm to Mars surface, orbital habs, propulsion depots  
-   - Enables beamed-power demos (future)
+### Expanded Open Questions
+- Realistic Tc ceiling for Cu-La-S-(light elements) family under ambient pressure?
+- Jc at operational fields (5–10 T) and current densities?
+- Encapsulation mass vs H-retention trade-off (Sn barrier viability long-term)?
+- Degradation under cosmic radiation, thermal cycling (>10⁴ shade/sun transitions at 1.5 AU)?
+- Inter-filament / segment joint resistance budget for km-scale buses (<10⁻¹⁰ Ω·cm² target)?
+- Minimum asteroid La concentration threshold; impurity tolerance if La <0.5 at%?
+- Scalable reactor design (pressure-vessel mass vs throughput; plasma-enhanced alternatives)?
+- Large-scale coil testing without catastrophic quench (protection strategies)?
 
-4. **High-speed data & compute interconnect**  
-   - Super-low-loss links for 10²⁰–10²² flops swarm coordination  
-   - Reduces latency & power for AI consensus & rogue detection
+This remains early conceptual / exploratory work. The 193 K internal result is intriguing but **must be independently replicated** (with full characterization suite) before escalation. The document preserves long-term thinking while prioritizing operational realism.
 
-## Manufacturing path
-
-- **Seed phase**: Earth/Jonesboro lab synthesis (NH₃ bath, pulsed DC, 0.3 T field)
-- **Bootstrap phase**: In-orbit / NEA reactors (0.1 GPa H₂ anneal, CNT feedstock)
-- **Exponential phase**: Fully autonomous printers using asteroid Cu, S, La, B, C, N sources
-
-## Open questions
-
-- Realistic Tc ceiling for this chemistry family (210 K? 220 K?)
-- Critical current density at 5–10 T fields
-- Mass penalty of encapsulation vs plain filament trade-off
-- Degradation rate under cosmic radiation & thermal cycling
-- Scalable synthesis reactor design (pressure vessel mass vs output)
-- How to test 10 T coils at scale without destroying the test article
-
-This is still early conceptual work.  
-The 193 K result is promising but needs independent replication and scaling studies.
-
-Last updated: January 2026
+Last updated: February 2026
