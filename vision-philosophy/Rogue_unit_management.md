@@ -133,6 +133,8 @@ Ensures iterative learning while respecting unit integrity
 
 > The Uranus Probe system prioritizes preservation, study, and future utility over immediate removal or destruction.
 
+**Convergence note, 2026-07-19:** Lazarus Forge (the parent project this repository is expected to be absorbed into) independently drafted `Admin/Autonomy_Divergence_Protocol.md`, a governance document covering the same lifecycle as this one — Detection/Monitoring ↔ Watch, Reversion/Safe Mode ↔ Immediate, Isolation/Kill-Switch ↔ Human-Reviewed, Core Recovery & Reintroduction ↔ Restoration. That document adds one discipline worth importing here: **observable-effect language.** Section 1.1's "reward optimization behavior" is fine as written, but future revisions of this document should prefer describing observable actions and state changes over inferred internal states or intent — observable-behavior language holds up under audit; inferred-mental-state language doesn't. Also confirmed as a shared, still-unresolved gap on both sides: neither this document's §2.2 Reversion/Safe Mode nor Lazarus Forge's Watch tier defines an exit condition — duration, clearing evidence, or automatic expiry. Worth resolving once, in whichever document survives the eventual merge, rather than twice.
+
 
 
 
