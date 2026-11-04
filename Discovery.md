@@ -71,6 +71,8 @@ The `Propulsion_Economy_isru/` folder addresses mobility as an economic and syst
 - **[Zero-G Collection & Anchoring](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md)** — Examines methods for stabilizing, anchoring, and interacting with objects in microgravity, enabling controlled extraction, fabrication, and force transfer without reliance on gravity wells.
 
 - **[Zero-G Fabrication](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md)** — Explores fabrication techniques optimized for zero-gravity environments, where traditional assumptions about tooling, material flow, and structural support no longer apply.
+- **[Water Delivery Gear Ratio](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/water-delivery-gear-ratio.md)** — Screening-level mass cost of putting 1 kg of water at a cislunar destination, for Earth-launched vs lunar-mined water; identifies where off-Earth water starts to beat water launched from Earth. First externally authored document in this repository (SpaceOceanCorp, PR #1, merged October 30, 2026).
+- **[Water Delivery Gear Ratio — Provenance](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/water-delivery-gear-ratio-PROVENANCE.md)** — Provenance record for the first external contribution: origin, human acceptance ruling, and screening-level verification.
 
 
 ## Terraforming Core — Planetary Engineering Sketches (Long Horizon)
@@ -97,39 +99,16 @@ Terraforming here is treated as systems engineering, not habitation-first coloni
 
 - Together with the core sketch, this forms a paired system: retain → thicken → stabilize.
 
-- **[Planetary Orbital Conditioning](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/planetary_orbital_conditioning.md)** - This document broadens terraforming Terraforming Core — Planetary Engineering Sketches (Long Horizon)
-  
-- The terraforming-core/ folder explores planetary-scale engineering as a long-horizon consequence of autonomous mining, energy abundance, and orbital control. These documents are intentionally speculative engineering sketches rather than execution plans, designed to remain dormant until enabling capabilities (energy scaling, mass transport, AI coordination) make them viable.
-
-- Terraforming is treated here as systems engineering, not habitation-first colonization. Early phases prioritize stabilization, retention, and conditioning; human presence is optional until planetary systems reach durable equilibrium.
-
-- Martian Atmosphere — Examines Mars’ atmosphere as a manipulable system rather than a static deficiency. It outlines atmospheric loss mechanisms, pressure targets, and replenishment pathways, emphasizing retention before thickening and acknowledging that atmosphere generation without magnetic or thermal stabilization is self-defeating.
-
-- Ceres as a Planet-Building Seed — Positions Ceres as a logistical and material nucleus rather than a destination. The document frames Ceres as an intermediary between asteroid mining and planet-scale assembly, leveraging its composition, location, and mass to stage water, volatiles, and refined materials.
-
-- Ceres Metabolic Nucleus — Expands the Ceres concept into a living industrial system: a refinery, buffer, and distribution hub supporting long-duration planetary engineering. Material flows, refinement loops, and energy coupling are implied rather than finalized, reinforcing the idea that planets are built through sustained processes, not single interventions.
-
-- Mars Core Jumpstart Sketch — Addresses Mars’ lack of a sustaining magnetic field by exploring speculative methods to reintroduce or simulate core dynamics. Magnetic field restoration is framed as a prerequisite for atmospheric stability rather than a secondary enhancement, with physics uncertainties explicitly acknowledged.
-
-- Mars Atmosphere Bootstrapping — Explores staged atmospheric construction once retention mechanisms exist. The document avoids naive “add gas” approaches, instead treating atmosphere growth as a feedback-managed process tied to temperature, pressure thresholds, and loss mitigation.
-
-- Planetary Orbital Conditioning — Extends terraforming beyond chemistry and geology by asserting that planetary orbits themselves become adjustable parameters given sufficient time and reaction mass. It sketches long-horizon orbital nudging and positioning strategies that allow thermal input and climate stability to be tuned rather than accepted as fixed.
-
-- Across these files, terraforming is not treated as a mission objective but as an emergent outcome of autonomous extraction, fabrication, propulsion, and energy scaling. Once a system can move mass, process material, and coordinate over centuries, planetary conditioning becomes a question of when, not if.
-Human involvement remains optional until stability is achieved.
+- **[Planetary Orbital Conditioning](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/planetary_orbital_conditioning.md)** — Extends terraforming beyond chemistry and geology by treating planetary orbits themselves as long-horizon adjustable parameters. Sketches orbital nudging and positioning strategies that allow thermal input and climate stability to be tuned rather than accepted as fixed.
 
 ## notebooks/
-Simulation notebooks and early thought logs.  
+Simulation notebooks and early thought logs.
 
-- Deleted Jupyter notes: still too early
 - Astroid Mining.txt
 - Astroid Mining2.txt
 - Astroid Mining3.txt
 
-
-## Notes on Swarm Notebooks
-- Git command (locally): `git rm notebooks/Swarm_replication_growth.ipynb` then commit/push.
-- Update any internal links to point to the kept file.
+Note: Jupyter notebooks (including Swarm_replication_growth.ipynb) were removed as too early-stage. They may return alongside the power-scaling and delta-v work listed under Next Steps.
 
 ## Next Steps / Planned
 - Consider adding `docs/` or `zero-g-challenges/` folder for better organization
@@ -140,7 +119,7 @@ Simulation notebooks and early thought logs.
 Open issues, PRs, and discussions are very welcome.  
 This is an evolving, collaborative exploration of self-sustaining asteroid mining and far beyond.
 
-**Last major update:** January 19, 2026
+**Last major update:** November 4, 2026 — integrity pass (duplicate stale block and editor residue removed, first external contribution registered with provenance, Lazarus Forge link repaired). Previous major update: January 19, 2026.
 
 ---
 
@@ -148,5 +127,5 @@ This is an evolving, collaborative exploration of self-sustaining asteroid minin
 
 Lazarus Forge explores **broader autonomous industrial systems**, governance, and AI-centric fabrication logic that overlap with Astroid-miner.
 
-Project map & raw links: [Lazarus Forge Discovery.md](https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md)
+Project map & raw links: [Lazarus Forge Discovery.md](https://raw.githubusercontent.com/ksarith/LazarusForge/main/Discovery.md)
 Project map & raw links: [Astroid-miner Discovery.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Discovery.md)
