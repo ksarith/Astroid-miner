@@ -71,6 +71,7 @@ The `Propulsion_Economy_isru/` folder addresses mobility as an economic and syst
 - **[Zero-G Collection & Anchoring](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero-g-collection-anchoring.md)** — Examines methods for stabilizing, anchoring, and interacting with objects in microgravity, enabling controlled extraction, fabrication, and force transfer without reliance on gravity wells.
 
 - **[Zero-G Fabrication](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Propulsion_Economy_isru/zero_g_fabrication.md)** — Explores fabrication techniques optimized for zero-gravity environments, where traditional assumptions about tooling, material flow, and structural support no longer apply.
+
 - **[Water Delivery Gear Ratio](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/water-delivery-gear-ratio.md)** — Screening-level mass cost of putting 1 kg of water at a cislunar destination, for Earth-launched vs lunar-mined water; identifies where off-Earth water starts to beat water launched from Earth. First externally authored document in this repository (SpaceOceanCorp, PR #1, merged October 30, 2026).
 - **[Water Delivery Gear Ratio — Provenance](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/Propulsion_Economy_isru/water-delivery-gear-ratio-PROVENANCE.md)** — Provenance record for the first external contribution: origin, human acceptance ruling, and screening-level verification.
 
